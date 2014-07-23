@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <!--
+        <record id="validate_button" model="ir.ui.view">
+            <field name="name">validate.button</field>
+            <field name="model">account.invoice</field>
+            <field name="inherit_id" ref="account.invoice_form"/>
+            <field name="arch" type="xml">
+
+                <button name="invoice_open" states="draft" string="Validate" class="oe_highlight" groups="base.group_user" position="replace"/>
+                <button name="invoice_open" states="draft" string="Validate" class="oe_highlight" groups="group_purchase_service_comptable"/>
+
+                     <button name="218" type="action" string="Refund Invoice" states="open,proforma2,paid" groups="base.group_user" position="replace">
+                          <button name="218" type="action" string="Refund Invoice" states="open,proforma2,paid" groups="group_purchase_service_comptable"/>
+                      </button>
+
+                <button name="207" type="action" string="Refund Invoice" states="open,proforma2,paid" groups="base.group_user" position="replace"/>
+                <button name="207" type="action" string="Refund Invoice" states="open,proforma2,paid" groups="group_purchase_service_comptable"/>
+
+            </field>
+        </record>-->
+    </data>
+</openerp>
+
+
+

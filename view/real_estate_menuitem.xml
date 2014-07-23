@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+
+        <!-- add the "payment terms" menu -->
+
+        <menuitem name="Payment Terms"
+                  id="menu_action_payment_term_form_sale"
+                  parent="base.menu_base_config"
+                  action="account.action_payment_term_form"/>
+    </data>
+</openerp>
+
+
+

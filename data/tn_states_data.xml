@@ -1,0 +1,1693 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data noupdate="1">
+
+<record id="ville_SFAX_AGAREB"	model="res.country.state.city">
+	<field name="name">AGAREB</field>
+	<field name="code">AGAREB</field>
+	<field search="[('code','=','SFAX')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_JENDOUBA_AIN_DRAHAM"	model="res.country.state.city">
+	<field name="name">AIN DRAHAM</field>
+	<field name="code">AIN_DRAHAM</field>
+	<field search="[('code','=','JENDOUBA')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_SOUSSE_AKOUDA"	model="res.country.state.city">
+	<field name="name">AKOUDA</field>
+	<field name="code">AKOUDA</field>
+	<field search="[('code','=','SOUSSE')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_BEJA_AMDOUN"	model="res.country.state.city">
+	<field name="name">AMDOUN</field>
+	<field name="code">AMDOUN</field>
+	<field search="[('code','=','BEJA')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_ARIANA_ARIANA_NORD"	model="res.country.state.city">
+	<field name="name">ARIANA NORD</field>
+	<field name="code">ARIANA_NORD</field>
+	<field search="[('code','=','ARIANA')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_ARIANA_ARIANA_VILLE"	model="res.country.state.city">
+	<field name="name">ARIANA VILLE</field>
+	<field name="code">ARIANA_VILLE</field>
+	<field search="[('code','=','ARIANA')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_TUNIS_BAB_BHAR"	model="res.country.state.city">
+	<field name="name">BAB BHAR</field>
+	<field name="code">BAB_BHAR</field>
+	<field search="[('code','=','TUNIS')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_TUNIS_BAB_SOUIKA"	model="res.country.state.city">
+	<field name="name">BAB SOUIKA</field>
+	<field name="code">BAB_SOUIKA</field>
+	<field search="[('code','=','TUNIS')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_JENDOUBA_BALTA"	model="res.country.state.city">
+	<field name="name">BALTA</field>
+	<field name="code">BALTA</field>
+	<field search="[('code','=','JENDOUBA')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_SILIANA_BARGOU"	model="res.country.state.city">
+	<field name="name">BARGOU</field>
+	<field name="code">BARGOU</field>
+	<field search="[('code','=','SILIANA')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_BEJA_BEJA_NORD"	model="res.country.state.city">
+	<field name="name">BEJA NORD</field>
+	<field name="code">BEJA_NORD</field>
+	<field search="[('code','=','BEJA')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_BEJA_BEJA_SUD"	model="res.country.state.city">
+	<field name="name">BEJA SUD</field>
+	<field name="code">BEJA_SUD</field>
+	<field search="[('code','=','BEJA')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_MONASTIR_BEKALTA"	model="res.country.state.city">
+	<field name="name">BEKALTA</field>
+	<field name="code">BEKALTA</field>
+	<field search="[('code','=','MONASTIR')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_GAFSA_BELKHIR"	model="res.country.state.city">
+	<field name="name">BELKHIR</field>
+	<field name="code">BELKHIR</field>
+	<field search="[('code','=','GAFSA')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_MONASTIR_BEMBLA"	model="res.country.state.city">
+	<field name="name">BEMBLA</field>
+	<field name="code">BEMBLA</field>
+	<field search="[('code','=','MONASTIR')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_BEN_AROUS_BEN_AROUS"	model="res.country.state.city">
+	<field name="name">BEN AROUS</field>
+	<field name="code">BEN_AROUS</field>
+	<field search="[('code','=','BEN_AROUS')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_MEDENINE_BEN_GUERDANE"	model="res.country.state.city">
+	<field name="name">BEN GUERDANE</field>
+	<field name="code">BEN_GUERDANE</field>
+	<field search="[('code','=','MEDENINE')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_SIDI_BOUZID_BEN_OUN"	model="res.country.state.city">
+	<field name="name">BEN OUN</field>
+	<field name="code">BEN_OUN</field>
+	<field search="[('code','=','SIDI_BOUZID')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_MONASTIR_BENI_HASSEN"	model="res.country.state.city">
+	<field name="name">BENI HASSEN</field>
+	<field name="code">BENI_HASSEN</field>
+	<field search="[('code','=','MONASTIR')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_NABEUL_BENI_KHALLED"	model="res.country.state.city">
+	<field name="name">BENI KHALLED</field>
+	<field name="code">BENI_KHALLED</field>
+	<field search="[('code','=','NABEUL')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_MEDENINE_BENI_KHEDECH"	model="res.country.state.city">
+	<field name="name">BENI KHEDECH</field>
+	<field name="code">BENI_KHEDECH</field>
+	<field search="[('code','=','MEDENINE')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_NABEUL_BENI_KHIAR"	model="res.country.state.city">
+	<field name="name">BENI KHIAR</field>
+	<field name="code">BENI_KHIAR</field>
+	<field search="[('code','=','NABEUL')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_SFAX_BIR_ALI_BEN_KHELIFA"	model="res.country.state.city">
+	<field name="name">BIR ALI BEN KHELIFA</field>
+	<field name="code">BIR_ALI_BEN_KHELIFA</field>
+	<field search="[('code','=','SFAX')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_SIDI_BOUZID_BIR_EL_HFEY"	model="res.country.state.city">
+	<field name="name">BIR EL HFEY</field>
+	<field name="code">BIR_EL_HFEY</field>
+	<field search="[('code','=','SIDI_BOUZID')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_TATAOUINE_BIR_LAHMAR"	model="res.country.state.city">
+	<field name="name">BIR LAHMAR</field>
+	<field name="code">BIR_LAHMAR</field>
+	<field search="[('code','=','TATAOUINE')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_ZAGHOUAN_BIR_M_CHERGA"	model="res.country.state.city">
+	<field name="name">BIR M'CHERGA</field>
+	<field name="code">BIR_M_CHERGA</field>
+	<field search="[('code','=','ZAGHOUAN')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_NABEUL_BIR_M_ROUA"	model="res.country.state.city">
+	<field name="name">BIR M'ROUA</field>
+	<field name="code">BIR_M_ROUA</field>
+	<field search="[('code','=','NABEUL')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_BIZERTE_BIZERTE_NORD"	model="res.country.state.city">
+	<field name="name">BIZERTE NORD</field>
+	<field name="code">BIZERTE_NORD</field>
+	<field search="[('code','=','BIZERTE')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_BIZERTE_BIZERTE_SUD"	model="res.country.state.city">
+	<field name="name">BIZERTE SUD</field>
+	<field name="code">BIZERTE_SUD</field>
+	<field search="[('code','=','BIZERTE')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_MANOUBA_BORJ_EL_AMRI"	model="res.country.state.city">
+	<field name="name">BORJ EL AMRI</field>
+	<field name="code">BORJ_EL_AMRI</field>
+	<field search="[('code','=','MANOUBA')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_SILIANA_BOU_ARADA"	model="res.country.state.city">
+	<field name="name">BOU ARADA</field>
+	<field name="code">BOU_ARADA</field>
+	<field search="[('code','=','SILIANA')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_NABEUL_BOU_ARGOUB"	model="res.country.state.city">
+	<field name="name">BOU ARGOUB</field>
+	<field name="code">BOU_ARGOUB</field>
+	<field search="[('code','=','NABEUL')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_SOUSSE_BOU_FICHA"	model="res.country.state.city">
+	<field name="name">BOU FICHA</field>
+	<field name="code">BOU_FICHA</field>
+	<field search="[('code','=','SOUSSE')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_KAIROUAN_BOU_HAJLA"	model="res.country.state.city">
+	<field name="name">BOU HAJLA</field>
+	<field name="code">BOU_HAJLA</field>
+	<field search="[('code','=','KAIROUAN')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_MAHDIA_BOU_MERDES"	model="res.country.state.city">
+	<field name="name">BOU MERDES</field>
+	<field name="code">BOU_MERDES</field>
+	<field search="[('code','=','MAHDIA')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_BEN_AROUS_BOU_M_HAL_EL_BASSATINE"	model="res.country.state.city">
+	<field name="name">BOU M'HAL EL BASSATINE</field>
+	<field name="code">BOU_M_HAL_EL_BASSATINE</field>
+	<field search="[('code','=','BEN_AROUS')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_JENDOUBA_BOU_SALEM"	model="res.country.state.city">
+	<field name="name">BOU SALEM</field>
+	<field name="code">BOU_SALEM</field>
+	<field search="[('code','=','JENDOUBA')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_TUNIS_CARTHAGE"	model="res.country.state.city">
+	<field name="name">CARTHAGE</field>
+	<field name="code">CARTHAGE</field>
+	<field search="[('code','=','TUNIS')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_SIDI_BOUZID_CEBELAT_OULED_ASKAR"	model="res.country.state.city">
+	<field name="name">CEBELAT OULED ASKAR</field>
+	<field name="code">CEBELAT_OULED_ASKAR</field>
+	<field search="[('code','=','SIDI_BOUZID')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_MAHDIA_CHEBBA"	model="res.country.state.city">
+	<field name="name">CHEBBA</field>
+	<field name="code">CHEBBA</field>
+	<field search="[('code','=','MAHDIA')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_MAHDIA_CHORBANE"	model="res.country.state.city">
+	<field name="name">CHORBANE</field>
+	<field name="code">CHORBANE</field>
+	<field search="[('code','=','MAHDIA')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_LE_KEF_DAHMANI"	model="res.country.state.city">
+	<field name="name">DAHMANI</field>
+	<field name="code">DAHMANI</field>
+	<field search="[('code','=','LE_KEF')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_NABEUL_DAR_CHAABANE_EL_FEHRI"	model="res.country.state.city">
+	<field name="name">DAR CHAABANE EL FEHRI</field>
+	<field name="code">DAR_CHAABANE_EL_FEHRI</field>
+	<field search="[('code','=','NABEUL')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_TOZEUR_DEGACH"	model="res.country.state.city">
+	<field name="name">DEGACH</field>
+	<field name="code">DEGACH</field>
+	<field search="[('code','=','TOZEUR')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_TATAOUINE_DHEHIBA"	model="res.country.state.city">
+	<field name="name">DHEHIBA</field>
+	<field name="code">DHEHIBA</field>
+	<field search="[('code','=','TATAOUINE')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_TUNIS_DJEBEL_DJELOUD"	model="res.country.state.city">
+	<field name="name">DJEBEL DJELOUD</field>
+	<field name="code">DJEBEL_DJELOUD</field>
+	<field search="[('code','=','TUNIS')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_SFAX_DJEBENIANA"	model="res.country.state.city">
+	<field name="name">DJEBENIANA</field>
+	<field name="code">DJEBENIANA</field>
+	<field search="[('code','=','SFAX')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_KASSERINE_DJEDLIANE"	model="res.country.state.city">
+	<field name="name">DJEDLIANE</field>
+	<field name="code">DJEDLIANE</field>
+	<field search="[('code','=','KASSERINE')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_SIDI_BOUZID_DJELMA"	model="res.country.state.city">
+	<field name="name">DJELMA</field>
+	<field name="code">DJELMA</field>
+	<field search="[('code','=','SIDI_BOUZID')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_MEDENINE_DJERBA_AJIM"	model="res.country.state.city">
+	<field name="name">DJERBA AJIM</field>
+	<field name="code">DJERBA_AJIM</field>
+	<field search="[('code','=','MEDENINE')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_MEDENINE_DJERBA_HOUMT_SOUK"	model="res.country.state.city">
+	<field name="name">DJERBA HOUMT SOUK</field>
+	<field name="code">DJERBA_HOUMT_SOUK</field>
+	<field search="[('code','=','MEDENINE')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_MEDENINE_DJERBA_MIDOUN"	model="res.country.state.city">
+	<field name="name">DJERBA MIDOUN</field>
+	<field name="code">DJERBA_MIDOUN</field>
+	<field search="[('code','=','MEDENINE')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_BIZERTE_DJOUMINE"	model="res.country.state.city">
+	<field name="name">DJOUMINE</field>
+	<field name="code">DJOUMINE</field>
+	<field search="[('code','=','BIZERTE')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_MANOUBA_DOUAR_HICHER"	model="res.country.state.city">
+	<field name="name">DOUAR HICHER</field>
+	<field name="code">DOUAR_HICHER</field>
+	<field search="[('code','=','MANOUBA')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_KEBILI_DOUZ"	model="res.country.state.city">
+	<field name="name">DOUZ</field>
+	<field name="code">DOUZ</field>
+	<field search="[('code','=','KEBILI')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_KAIROUAN_ECHBIKA"	model="res.country.state.city">
+	<field name="name">ECHBIKA</field>
+	<field name="code">ECHBIKA</field>
+	<field search="[('code','=','KAIROUAN')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_KAIROUAN_ECHRARDA"	model="res.country.state.city">
+	<field name="name">ECHRARDA</field>
+	<field name="code">ECHRARDA</field>
+	<field search="[('code','=','KAIROUAN')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_KAIROUAN_EL_ALA"	model="res.country.state.city">
+	<field name="name">EL ALA</field>
+	<field name="code">EL_ALA</field>
+	<field search="[('code','=','KAIROUAN')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_BIZERTE_EL_ALIA"	model="res.country.state.city">
+	<field name="name">EL ALIA</field>
+	<field name="code">EL_ALIA</field>
+	<field search="[('code','=','BIZERTE')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_SFAX_EL_AMRA"	model="res.country.state.city">
+	<field name="name">EL AMRA</field>
+	<field name="code">EL_AMRA</field>
+	<field search="[('code','=','SFAX')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_KASSERINE_EL_AYOUN"	model="res.country.state.city">
+	<field name="name">EL AYOUN</field>
+	<field name="code">EL_AYOUN</field>
+	<field search="[('code','=','KASSERINE')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_TUNIS_EL_BOUHAIRA"	model="res.country.state.city">
+	<field name="name">EL BOUHAIRA</field>
+	<field name="code">EL_BOUHAIRA</field>
+	<field search="[('code','=','TUNIS')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_MAHDIA_EL_DJEM"	model="res.country.state.city">
+	<field name="name">EL DJEM</field>
+	<field name="code">EL_DJEM</field>
+	<field search="[('code','=','MAHDIA')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_ZAGHOUAN_EL_FAHS"	model="res.country.state.city">
+	<field name="name">EL FAHS</field>
+	<field name="code">EL_FAHS</field>
+	<field search="[('code','=','ZAGHOUAN')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_KEBILI_EL_FAOUAR"	model="res.country.state.city">
+	<field name="name">EL FAOUAR</field>
+	<field name="code">EL_FAOUAR</field>
+	<field search="[('code','=','KEBILI')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_GAFSA_EL_GUETTAR"	model="res.country.state.city">
+	<field name="name">EL GUETTAR</field>
+	<field name="code">EL_GUETTAR</field>
+	<field search="[('code','=','GAFSA')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_GABES_EL_HAMMA"	model="res.country.state.city">
+	<field name="name">EL HAMMA</field>
+	<field name="code">EL_HAMMA</field>
+	<field search="[('code','=','GABES')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_SFAX_EL_HANCHA"	model="res.country.state.city">
+	<field name="name">EL HANCHA</field>
+	<field name="code">EL_HANCHA</field>
+	<field search="[('code','=','SFAX')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_NABEUL_EL_HAOUARIA"	model="res.country.state.city">
+	<field name="name">EL HAOUARIA</field>
+	<field name="code">EL_HAOUARIA</field>
+	<field search="[('code','=','NABEUL')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_TUNIS_EL_HRAIRIA"	model="res.country.state.city">
+	<field name="name">EL HRAIRIA</field>
+	<field name="code">EL_HRAIRIA</field>
+	<field search="[('code','=','TUNIS')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_TUNIS_EL_KABBARIA"	model="res.country.state.city">
+	<field name="name">EL KABBARIA</field>
+	<field name="code">EL_KABBARIA</field>
+	<field search="[('code','=','TUNIS')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_TUNIS_EL_KHADRA"	model="res.country.state.city">
+	<field name="name">EL KHADRA</field>
+	<field name="code">EL_KHADRA</field>
+	<field search="[('code','=','TUNIS')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_SILIANA_EL_KRIB"	model="res.country.state.city">
+	<field name="name">EL KRIB</field>
+	<field name="code">EL_KRIB</field>
+	<field search="[('code','=','SILIANA')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_GAFSA_EL_KSAR"	model="res.country.state.city">
+	<field name="name">EL KSAR</field>
+	<field name="code">EL_KSAR</field>
+	<field search="[('code','=','GAFSA')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_LE_KEF_EL_KSOUR"	model="res.country.state.city">
+	<field name="name">EL KSOUR</field>
+	<field name="code">EL_KSOUR</field>
+	<field search="[('code','=','LE_KEF')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_GAFSA_EL_MDHILLA"	model="res.country.state.city">
+	<field name="name">EL MDHILLA</field>
+	<field name="code">EL_MDHILLA</field>
+	<field search="[('code','=','GAFSA')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_TUNIS_EL_MENZAH"	model="res.country.state.city">
+	<field name="name">EL MENZAH</field>
+	<field name="code">EL_MENZAH</field>
+	<field search="[('code','=','TUNIS')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_GABES_EL_METOUIA"	model="res.country.state.city">
+	<field name="name">EL METOUIA</field>
+	<field name="code">EL_METOUIA</field>
+	<field search="[('code','=','GABES')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_NABEUL_EL_MIDA"	model="res.country.state.city">
+	<field name="name">EL MIDA</field>
+	<field name="code">EL_MIDA</field>
+	<field search="[('code','=','NABEUL')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_ARIANA_EL_M_NIHLA"	model="res.country.state.city">
+	<field name="name">EL M'NIHLA</field>
+	<field name="code">EL_M_NIHLA</field>
+	<field search="[('code','=','ARIANA')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_BEN_AROUS_EL_MOUROUJ"	model="res.country.state.city">
+	<field name="name">EL MOUROUJ</field>
+	<field name="code">EL_MOUROUJ</field>
+	<field search="[('code','=','BEN_AROUS')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_TUNIS_EL_OMRANE"	model="res.country.state.city">
+	<field name="name">EL OMRANE</field>
+	<field name="code">EL_OMRANE</field>
+	<field search="[('code','=','TUNIS')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_TUNIS_EL_OMRANE_SUPERIEUR"	model="res.country.state.city">
+	<field name="name">EL OMRANE SUPERIEUR</field>
+	<field name="code">EL_OMRANE_SUPERIEUR</field>
+	<field search="[('code','=','TUNIS')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_TUNIS_EL_OUARDIA"	model="res.country.state.city">
+	<field name="name">EL OUARDIA</field>
+	<field name="code">EL_OUARDIA</field>
+	<field search="[('code','=','TUNIS')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_KAIROUAN_EL_OUESLATIA"	model="res.country.state.city">
+	<field name="name">EL OUESLATIA</field>
+	<field name="code">EL_OUESLATIA</field>
+	<field search="[('code','=','KAIROUAN')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_SOUSSE_ENFIDHA"	model="res.country.state.city">
+	<field name="name">ENFIDHA</field>
+	<field name="code">ENFIDHA</field>
+	<field search="[('code','=','SOUSSE')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_ZAGHOUAN_ENNADHOUR"	model="res.country.state.city">
+	<field name="name">ENNADHOUR</field>
+	<field name="code">ENNADHOUR</field>
+	<field search="[('code','=','ZAGHOUAN')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_SILIANA_ERROUHIA"	model="res.country.state.city">
+	<field name="name">ERROUHIA</field>
+	<field name="code">ERROUHIA</field>
+	<field search="[('code','=','SILIANA')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_MAHDIA_ESSOUASSI"	model="res.country.state.city">
+	<field name="name">ESSOUASSI</field>
+	<field name="code">ESSOUASSI</field>
+	<field search="[('code','=','MAHDIA')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_ARIANA_ETTADHAMEN"	model="res.country.state.city">
+	<field name="name">ETTADHAMEN</field>
+	<field name="code">ETTADHAMEN</field>
+	<field search="[('code','=','ARIANA')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_TUNIS_ETTAHRIR"	model="res.country.state.city">
+	<field name="name">ETTAHRIR</field>
+	<field name="code">ETTAHRIR</field>
+	<field search="[('code','=','TUNIS')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_BEN_AROUS_EZZAHRA"	model="res.country.state.city">
+	<field name="name">EZZAHRA</field>
+	<field name="code">EZZAHRA</field>
+	<field search="[('code','=','BEN_AROUS')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_KASSERINE_EZZOUHOUR"	model="res.country.state.city">
+	<field name="name">EZZOUHOUR</field>
+	<field name="code">EZZOUHOUR</field>
+	<field search="[('code','=','KASSERINE')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_TUNIS_EZZOUHOUR"	model="res.country.state.city">
+	<field name="name">EZZOUHOUR</field>
+	<field name="code">EZZOUHOUR</field>
+	<field search="[('code','=','TUNIS')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_KASSERINE_FERIANA"	model="res.country.state.city">
+	<field name="name">FERIANA</field>
+	<field name="code">FERIANA</field>
+	<field search="[('code','=','KASSERINE')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_JENDOUBA_FERNANA"	model="res.country.state.city">
+	<field name="name">FERNANA</field>
+	<field name="code">FERNANA</field>
+	<field search="[('code','=','JENDOUBA')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_BEN_AROUS_FOUCHANA"	model="res.country.state.city">
+	<field name="name">FOUCHANA</field>
+	<field name="code">FOUCHANA</field>
+	<field search="[('code','=','BEN_AROUS')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_KASSERINE_FOUSSANA"	model="res.country.state.city">
+	<field name="name">FOUSSANA</field>
+	<field name="code">FOUSSANA</field>
+	<field search="[('code','=','KASSERINE')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_SILIANA_GAAFOUR"	model="res.country.state.city">
+	<field name="name">GAAFOUR</field>
+	<field name="code">GAAFOUR</field>
+	<field search="[('code','=','SILIANA')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_GABES_GABES_EST"	model="res.country.state.city">
+	<field name="name">GABES EST</field>
+	<field name="code">GABES_EST</field>
+	<field search="[('code','=','GABES')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_GABES_GABES_OUEST"	model="res.country.state.city">
+	<field name="name">GABES OUEST</field>
+	<field name="code">GABES_OUEST</field>
+	<field search="[('code','=','GABES')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_GABES_GABES_SUD"	model="res.country.state.city">
+	<field name="name">GABES SUD</field>
+	<field name="code">GABES_SUD</field>
+	<field search="[('code','=','GABES')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_GAFSA_GAFSA_NORD"	model="res.country.state.city">
+	<field name="name">GAFSA NORD</field>
+	<field name="code">GAFSA_NORD</field>
+	<field search="[('code','=','GAFSA')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_GAFSA_GAFSA_SUD"	model="res.country.state.city">
+	<field name="name">GAFSA SUD</field>
+	<field name="code">GAFSA_SUD</field>
+	<field search="[('code','=','GAFSA')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_GABES_GHANNOUCHE"	model="res.country.state.city">
+	<field name="name">GHANNOUCHE</field>
+	<field name="code">GHANNOUCHE</field>
+	<field search="[('code','=','GABES')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_BIZERTE_GHAR_EL_MELH"	model="res.country.state.city">
+	<field name="name">GHAR EL MELH</field>
+	<field name="code">GHAR_EL_MELH</field>
+	<field search="[('code','=','BIZERTE')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_JENDOUBA_GHARDIMAOU"	model="res.country.state.city">
+	<field name="name">GHARDIMAOU</field>
+	<field name="code">GHARDIMAOU</field>
+	<field search="[('code','=','JENDOUBA')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_BIZERTE_GHEZALA"	model="res.country.state.city">
+	<field name="name">GHEZALA</field>
+	<field name="code">GHEZALA</field>
+	<field search="[('code','=','BIZERTE')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_TATAOUINE_GHOMRASSEN"	model="res.country.state.city">
+	<field name="name">GHOMRASSEN</field>
+	<field name="code">GHOMRASSEN</field>
+	<field search="[('code','=','TATAOUINE')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_SFAX_GHRAIBA"	model="res.country.state.city">
+	<field name="name">GHRAIBA</field>
+	<field name="code">GHRAIBA</field>
+	<field search="[('code','=','SFAX')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_BEJA_GOUBELLAT"	model="res.country.state.city">
+	<field name="name">GOUBELLAT</field>
+	<field name="code">GOUBELLAT</field>
+	<field search="[('code','=','BEJA')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_NABEUL_GROMBALIA"	model="res.country.state.city">
+	<field name="name">GROMBALIA</field>
+	<field name="code">GROMBALIA</field>
+	<field search="[('code','=','NABEUL')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_KAIROUAN_HAFFOUZ"	model="res.country.state.city">
+	<field name="name">HAFFOUZ</field>
+	<field name="code">HAFFOUZ</field>
+	<field search="[('code','=','KAIROUAN')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_KAIROUAN_HAJEB_EL_AYOUN"	model="res.country.state.city">
+	<field name="name">HAJEB EL AYOUN</field>
+	<field name="code">HAJEB_EL_AYOUN</field>
+	<field search="[('code','=','KAIROUAN')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_BEN_AROUS_HAMMAM_CHOTT"	model="res.country.state.city">
+	<field name="name">HAMMAM CHOTT</field>
+	<field name="code">HAMMAM_CHOTT</field>
+	<field search="[('code','=','BEN_AROUS')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_NABEUL_HAMMAM_GHEZAZ"	model="res.country.state.city">
+	<field name="name">HAMMAM GHEZAZ</field>
+	<field name="code">HAMMAM_GHEZAZ</field>
+	<field search="[('code','=','NABEUL')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_BEN_AROUS_HAMMAM_LIF"	model="res.country.state.city">
+	<field name="name">HAMMAM LIF</field>
+	<field name="code">HAMMAM_LIF</field>
+	<field search="[('code','=','BEN_AROUS')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_SOUSSE_HAMMAM_SOUSSE"	model="res.country.state.city">
+	<field name="name">HAMMAM SOUSSE</field>
+	<field name="code">HAMMAM_SOUSSE</field>
+	<field search="[('code','=','SOUSSE')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_ZAGHOUAN_HAMMAM_ZRIBA"	model="res.country.state.city">
+	<field name="name">HAMMAM ZRIBA</field>
+	<field name="code">HAMMAM_ZRIBA</field>
+	<field search="[('code','=','ZAGHOUAN')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_NABEUL_HAMMAMET"	model="res.country.state.city">
+	<field name="name">HAMMAMET</field>
+	<field name="code">HAMMAMET</field>
+	<field search="[('code','=','NABEUL')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_KASSERINE_HASSI_EL_FRID"	model="res.country.state.city">
+	<field name="name">HASSI EL FRID</field>
+	<field name="code">HASSI_EL_FRID</field>
+	<field search="[('code','=','KASSERINE')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_TOZEUR_HAZOUA"	model="res.country.state.city">
+	<field name="name">HAZOUA</field>
+	<field name="code">HAZOUA</field>
+	<field search="[('code','=','TOZEUR')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_MAHDIA_HBIRA"	model="res.country.state.city">
+	<field name="name">HBIRA</field>
+	<field name="code">HBIRA</field>
+	<field search="[('code','=','MAHDIA')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_SOUSSE_HERGLA"	model="res.country.state.city">
+	<field name="name">HERGLA</field>
+	<field name="code">HERGLA</field>
+	<field search="[('code','=','SOUSSE')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_KASSERINE_HIDRA"	model="res.country.state.city">
+	<field name="name">HIDRA</field>
+	<field name="code">HIDRA</field>
+	<field search="[('code','=','KASSERINE')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_MONASTIR_JAMMEL"	model="res.country.state.city">
+	<field name="name">JAMMEL</field>
+	<field name="code">JAMMEL</field>
+	<field search="[('code','=','MONASTIR')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_BIZERTE_JARZOUNA"	model="res.country.state.city">
+	<field name="name">JARZOUNA</field>
+	<field name="code">JARZOUNA</field>
+	<field search="[('code','=','BIZERTE')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_MANOUBA_JEDAIDA"	model="res.country.state.city">
+	<field name="name">JEDAIDA</field>
+	<field name="code">JEDAIDA</field>
+	<field search="[('code','=','MANOUBA')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_JENDOUBA_JENDOUBA"	model="res.country.state.city">
+	<field name="name">JENDOUBA</field>
+	<field name="code">JENDOUBA</field>
+	<field search="[('code','=','JENDOUBA')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_JENDOUBA_JENDOUBA_NORD"	model="res.country.state.city">
+	<field name="name">JENDOUBA NORD</field>
+	<field name="code">JENDOUBA_NORD</field>
+	<field search="[('code','=','JENDOUBA')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_LE_KEF_JERISSA"	model="res.country.state.city">
+	<field name="name">JERISSA</field>
+	<field name="code">JERISSA</field>
+	<field search="[('code','=','LE_KEF')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_KAIROUAN_KAIROUAN_NORD"	model="res.country.state.city">
+	<field name="name">KAIROUAN NORD</field>
+	<field name="code">KAIROUAN_NORD</field>
+	<field search="[('code','=','KAIROUAN')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_KAIROUAN_KAIROUAN_SUD"	model="res.country.state.city">
+	<field name="name">KAIROUAN SUD</field>
+	<field name="code">KAIROUAN_SUD</field>
+	<field search="[('code','=','KAIROUAN')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_SOUSSE_KALAA_EL_KEBIRA"	model="res.country.state.city">
+	<field name="name">KALAA EL KEBIRA</field>
+	<field name="code">KALAA_EL_KEBIRA</field>
+	<field search="[('code','=','SOUSSE')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_SOUSSE_KALAA_ESSGHIRA"	model="res.country.state.city">
+	<field name="name">KALAA ESSGHIRA</field>
+	<field name="code">KALAA_ESSGHIRA</field>
+	<field search="[('code','=','SOUSSE')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_LE_KEF_KALAAT_KHASBA"	model="res.country.state.city">
+	<field name="name">KALAAT KHASBA</field>
+	<field name="code">KALAAT_KHASBA</field>
+	<field search="[('code','=','LE_KEF')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_ARIANA_KALAAT_LANDLOUS"	model="res.country.state.city">
+	<field name="name">KALAAT LANDLOUS</field>
+	<field name="code">KALAAT_LANDLOUS</field>
+	<field search="[('code','=','ARIANA')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_LE_KEF_KALAAT_SINANE"	model="res.country.state.city">
+	<field name="name">KALAAT SINANE</field>
+	<field name="code">KALAAT_SINANE</field>
+	<field search="[('code','=','LE_KEF')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_KASSERINE_KASSERINE_NORD"	model="res.country.state.city">
+	<field name="name">KASSERINE NORD</field>
+	<field name="code">KASSERINE_NORD</field>
+	<field search="[('code','=','KASSERINE')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_KASSERINE_KASSERINE_SUD"	model="res.country.state.city">
+	<field name="name">KASSERINE SUD</field>
+	<field name="code">KASSERINE_SUD</field>
+	<field search="[('code','=','KASSERINE')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_KEBILI_KEBILI_NORD"	model="res.country.state.city">
+	<field name="name">KEBILI NORD</field>
+	<field name="code">KEBILI_NORD</field>
+	<field search="[('code','=','KEBILI')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_KEBILI_KEBILI_SUD"	model="res.country.state.city">
+	<field name="name">KEBILI SUD</field>
+	<field name="code">KEBILI_SUD</field>
+	<field search="[('code','=','KEBILI')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_NABEUL_KELIBIA"	model="res.country.state.city">
+	<field name="name">KELIBIA</field>
+	<field name="code">KELIBIA</field>
+	<field search="[('code','=','NABEUL')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_SFAX_KELLABINE"	model="res.country.state.city">
+	<field name="name">KELLABINE</field>
+	<field name="code">KELLABINE</field>
+	<field search="[('code','=','SFAX')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_SFAX_KERKENNAH"	model="res.country.state.city">
+	<field name="name">KERKENNAH</field>
+	<field name="code">KERKENNAH</field>
+	<field search="[('code','=','SFAX')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_SILIANA_KESRA"	model="res.country.state.city">
+	<field name="name">KESRA</field>
+	<field name="code">KESRA</field>
+	<field search="[('code','=','SILIANA')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_SOUSSE_KONDAR"	model="res.country.state.city">
+	<field name="name">KONDAR</field>
+	<field name="code">KONDAR</field>
+	<field search="[('code','=','SOUSSE')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_NABEUL_KORBA"	model="res.country.state.city">
+	<field name="name">KORBA</field>
+	<field name="code">KORBA</field>
+	<field search="[('code','=','NABEUL')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_MONASTIR_KSAR_HELAL"	model="res.country.state.city">
+	<field name="name">KSAR HELAL</field>
+	<field name="code">KSAR_HELAL</field>
+	<field search="[('code','=','MONASTIR')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_MONASTIR_KSIBET_EL_MEDIOUNI"	model="res.country.state.city">
+	<field name="name">KSIBET EL MEDIOUNI</field>
+	<field name="code">KSIBET_EL_MEDIOUNI</field>
+	<field search="[('code','=','MONASTIR')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_MAHDIA_KSOUR_ESSAF"	model="res.country.state.city">
+	<field name="name">KSOUR ESSAF</field>
+	<field name="code">KSOUR_ESSAF</field>
+	<field search="[('code','=','MAHDIA')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_TUNIS_LA_GOULETTE"	model="res.country.state.city">
+	<field name="name">LA GOULETTE</field>
+	<field name="code">LA_GOULETTE</field>
+	<field search="[('code','=','TUNIS')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_TUNIS_LA_MARSA"	model="res.country.state.city">
+	<field name="name">LA MARSA</field>
+	<field name="code">LA_MARSA</field>
+	<field search="[('code','=','TUNIS')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_TUNIS_LA_MEDINA"	model="res.country.state.city">
+	<field name="name">LA MEDINA</field>
+	<field name="code">LA_MEDINA</field>
+	<field search="[('code','=','TUNIS')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_TUNIS_LE_BARDO"	model="res.country.state.city">
+	<field name="name">LE BARDO</field>
+	<field name="code">LE_BARDO</field>
+	<field search="[('code','=','TUNIS')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_LE_KEF_LE_KEF_EST"	model="res.country.state.city">
+	<field name="name">LE KEF EST</field>
+	<field name="code">LE_KEF_EST</field>
+	<field search="[('code','=','LE_KEF')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_LE_KEF_LE_KEF_OUEST"	model="res.country.state.city">
+	<field name="name">LE KEF OUEST</field>
+	<field name="code">LE_KEF_OUEST</field>
+	<field search="[('code','=','LE_KEF')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_TUNIS_LE_KRAM"	model="res.country.state.city">
+	<field name="name">LE KRAM</field>
+	<field name="code">LE_KRAM</field>
+	<field search="[('code','=','TUNIS')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_LE_KEF_LE_SERS"	model="res.country.state.city">
+	<field name="name">LE SERS</field>
+	<field name="code">LE_SERS</field>
+	<field search="[('code','=','LE_KEF')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_GAFSA_LE_SNED"	model="res.country.state.city">
+	<field name="name">LE SNED</field>
+	<field name="code">LE_SNED</field>
+	<field search="[('code','=','GAFSA')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_MAHDIA_MAHDIA"	model="res.country.state.city">
+	<field name="name">MAHDIA</field>
+	<field name="code">MAHDIA</field>
+	<field search="[('code','=','MAHDIA')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_SFAX_MAHRAS"	model="res.country.state.city">
+	<field name="name">MAHRAS</field>
+	<field name="code">MAHRAS</field>
+	<field search="[('code','=','SFAX')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_KASSERINE_MAJEL_BEL_ABBES"	model="res.country.state.city">
+	<field name="name">MAJEL BEL ABBES</field>
+	<field name="code">MAJEL_BEL_ABBES</field>
+	<field search="[('code','=','KASSERINE')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_SILIANA_MAKTHAR"	model="res.country.state.city">
+	<field name="name">MAKTHAR</field>
+	<field name="code">MAKTHAR</field>
+	<field search="[('code','=','SILIANA')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_MANOUBA_MANNOUBA"	model="res.country.state.city">
+	<field name="name">MANNOUBA</field>
+	<field name="code">MANNOUBA</field>
+	<field search="[('code','=','MANOUBA')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_GABES_MARETH"	model="res.country.state.city">
+	<field name="name">MARETH</field>
+	<field name="code">MARETH</field>
+	<field search="[('code','=','GABES')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_BIZERTE_MATEUR"	model="res.country.state.city">
+	<field name="name">MATEUR</field>
+	<field name="code">MATEUR</field>
+	<field search="[('code','=','BIZERTE')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_GABES_MATMATA"	model="res.country.state.city">
+	<field name="name">MATMATA</field>
+	<field name="code">MATMATA</field>
+	<field search="[('code','=','GABES')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_MEDENINE_MEDENINE_NORD"	model="res.country.state.city">
+	<field name="name">MEDENINE NORD</field>
+	<field name="code">MEDENINE_NORD</field>
+	<field search="[('code','=','MEDENINE')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_MEDENINE_MEDENINE_SUD"	model="res.country.state.city">
+	<field name="name">MEDENINE SUD</field>
+	<field name="code">MEDENINE_SUD</field>
+	<field search="[('code','=','MEDENINE')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_BEN_AROUS_MEGRINE"	model="res.country.state.city">
+	<field name="name">MEGRINE</field>
+	<field name="code">MEGRINE</field>
+	<field search="[('code','=','BEN_AROUS')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_BEJA_MEJEZ_EL_BAB"	model="res.country.state.city">
+	<field name="name">MEJEZ EL BAB</field>
+	<field name="code">MEJEZ_EL_BAB</field>
+	<field search="[('code','=','BEJA')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_SIDI_BOUZID_MEKNASSY"	model="res.country.state.city">
+	<field name="name">MEKNASSY</field>
+	<field name="code">MEKNASSY</field>
+	<field search="[('code','=','SIDI_BOUZID')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_MAHDIA_MELLOULECH"	model="res.country.state.city">
+	<field name="name">MELLOULECH</field>
+	<field name="code">MELLOULECH</field>
+	<field search="[('code','=','MAHDIA')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_BIZERTE_MENZEL_BOURGUIBA"	model="res.country.state.city">
+	<field name="name">MENZEL BOURGUIBA</field>
+	<field name="code">MENZEL_BOURGUIBA</field>
+	<field search="[('code','=','BIZERTE')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_SIDI_BOUZID_MENZEL_BOUZAIANE"	model="res.country.state.city">
+	<field name="name">MENZEL BOUZAIANE</field>
+	<field name="code">MENZEL_BOUZAIANE</field>
+	<field search="[('code','=','SIDI_BOUZID')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_NABEUL_MENZEL_BOUZELFA"	model="res.country.state.city">
+	<field name="name">MENZEL BOUZELFA</field>
+	<field name="code">MENZEL_BOUZELFA</field>
+	<field search="[('code','=','NABEUL')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_SFAX_MENZEL_CHAKER"	model="res.country.state.city">
+	<field name="name">MENZEL CHAKER</field>
+	<field name="code">MENZEL_CHAKER</field>
+	<field search="[('code','=','SFAX')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_GABES_MENZEL_HABIB"	model="res.country.state.city">
+	<field name="name">MENZEL HABIB</field>
+	<field name="code">MENZEL_HABIB</field>
+	<field search="[('code','=','GABES')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_BIZERTE_MENZEL_JEMIL"	model="res.country.state.city">
+	<field name="name">MENZEL JEMIL</field>
+	<field name="code">MENZEL_JEMIL</field>
+	<field search="[('code','=','BIZERTE')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_NABEUL_MENZEL_TEMIME"	model="res.country.state.city">
+	<field name="name">MENZEL TEMIME</field>
+	<field name="code">MENZEL_TEMIME</field>
+	<field search="[('code','=','NABEUL')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_GAFSA_METLAOUI"	model="res.country.state.city">
+	<field name="name">METLAOUI</field>
+	<field name="code">METLAOUI</field>
+	<field search="[('code','=','GAFSA')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_BEN_AROUS_MOHAMEDIA"	model="res.country.state.city">
+	<field name="name">MOHAMEDIA</field>
+	<field name="code">MOHAMEDIA</field>
+	<field search="[('code','=','BEN_AROUS')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_MONASTIR_MOKNINE"	model="res.country.state.city">
+	<field name="name">MOKNINE</field>
+	<field name="code">MOKNINE</field>
+	<field search="[('code','=','MONASTIR')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_MONASTIR_MONASTIR"	model="res.country.state.city">
+	<field name="name">MONASTIR</field>
+	<field name="code">MONASTIR</field>
+	<field search="[('code','=','MONASTIR')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_BEN_AROUS_MORNAG"	model="res.country.state.city">
+	<field name="name">MORNAG</field>
+	<field name="code">MORNAG</field>
+	<field search="[('code','=','BEN_AROUS')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_MANOUBA_MORNAGUIA"	model="res.country.state.city">
+	<field name="name">MORNAGUIA</field>
+	<field name="code">MORNAGUIA</field>
+	<field search="[('code','=','MANOUBA')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_GAFSA_MOULARES"	model="res.country.state.city">
+	<field name="name">MOULARES</field>
+	<field name="code">MOULARES</field>
+	<field search="[('code','=','GAFSA')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_SOUSSE_M_SAKEN"	model="res.country.state.city">
+	<field name="name">M'SAKEN</field>
+	<field name="code">M_SAKEN</field>
+	<field search="[('code','=','SOUSSE')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_SIDI_BOUZID_MZOUNA"	model="res.country.state.city">
+	<field name="name">MZOUNA</field>
+	<field name="code">MZOUNA</field>
+	<field search="[('code','=','SIDI_BOUZID')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_NABEUL_NABEUL"	model="res.country.state.city">
+	<field name="name">NABEUL</field>
+	<field name="code">NABEUL</field>
+	<field search="[('code','=','NABEUL')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_KAIROUAN_NASRALLAH"	model="res.country.state.city">
+	<field name="name">NASRALLAH</field>
+	<field name="code">NASRALLAH</field>
+	<field search="[('code','=','KAIROUAN')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_LE_KEF_NEBEUR"	model="res.country.state.city">
+	<field name="name">NEBEUR</field>
+	<field name="code">NEBEUR</field>
+	<field search="[('code','=','LE_KEF')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_TOZEUR_NEFTA"	model="res.country.state.city">
+	<field name="name">NEFTA</field>
+	<field name="code">NEFTA</field>
+	<field search="[('code','=','TOZEUR')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_BEJA_NEFZA"	model="res.country.state.city">
+	<field name="name">NEFZA</field>
+	<field name="code">NEFZA</field>
+	<field search="[('code','=','BEJA')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_GABES_NOUVELLE_MATMATA"	model="res.country.state.city">
+	<field name="name">NOUVELLE MATMATA</field>
+	<field name="code">NOUVELLE_MATMATA</field>
+	<field search="[('code','=','GABES')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_BEN_AROUS_NOUVELLE_MEDINA"	model="res.country.state.city">
+	<field name="name">NOUVELLE MEDINA</field>
+	<field name="code">NOUVELLE_MEDINA</field>
+	<field search="[('code','=','BEN_AROUS')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_MONASTIR_OUARDANINE"	model="res.country.state.city">
+	<field name="name">OUARDANINE</field>
+	<field name="code">OUARDANINE</field>
+	<field search="[('code','=','MONASTIR')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_MANOUBA_OUED_ELLIL"	model="res.country.state.city">
+	<field name="name">OUED ELLIL</field>
+	<field name="code">OUED_ELLIL</field>
+	<field search="[('code','=','MANOUBA')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_JENDOUBA_OUED_M_LIZ"	model="res.country.state.city">
+	<field name="name">OUED M'LIZ</field>
+	<field name="code">OUED_M_LIZ</field>
+	<field search="[('code','=','JENDOUBA')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_MAHDIA_OULED_CHAMEKH"	model="res.country.state.city">
+	<field name="name">OULED CHAMEKH</field>
+	<field name="code">OULED_CHAMEKH</field>
+	<field search="[('code','=','MAHDIA')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_SIDI_BOUZID_OULED_HAFFOUZ"	model="res.country.state.city">
+	<field name="name">OULED HAFFOUZ</field>
+	<field name="code">OULED_HAFFOUZ</field>
+	<field search="[('code','=','SIDI_BOUZID')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_BEN_AROUS_RADES"	model="res.country.state.city">
+	<field name="name">RADES</field>
+	<field name="code">RADES</field>
+	<field search="[('code','=','BEN_AROUS')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_BIZERTE_RAS_EL_DJEBEL"	model="res.country.state.city">
+	<field name="name">RAS EL DJEBEL</field>
+	<field name="code">RAS_EL_DJEBEL</field>
+	<field search="[('code','=','BIZERTE')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_GAFSA_REDEYEF"	model="res.country.state.city">
+	<field name="name">REDEYEF</field>
+	<field name="code">REDEYEF</field>
+	<field search="[('code','=','GAFSA')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_SIDI_BOUZID_REGUEB"	model="res.country.state.city">
+	<field name="name">REGUEB</field>
+	<field name="code">REGUEB</field>
+	<field search="[('code','=','SIDI_BOUZID')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_TATAOUINE_REMADA"	model="res.country.state.city">
+	<field name="name">REMADA</field>
+	<field name="code">REMADA</field>
+	<field search="[('code','=','TATAOUINE')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_MONASTIR_SAHLINE"	model="res.country.state.city">
+	<field name="name">SAHLINE</field>
+	<field name="code">SAHLINE</field>
+	<field search="[('code','=','MONASTIR')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_SFAX_SAKIET_EDDAIER"	model="res.country.state.city">
+	<field name="name">SAKIET EDDAIER</field>
+	<field name="code">SAKIET_EDDAIER</field>
+	<field search="[('code','=','SFAX')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_SFAX_SAKIET_EZZIT"	model="res.country.state.city">
+	<field name="name">SAKIET EZZIT</field>
+	<field name="code">SAKIET_EZZIT</field>
+	<field search="[('code','=','SFAX')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_LE_KEF_SAKIET_SIDI_YOUSSEF"	model="res.country.state.city">
+	<field name="name">SAKIET SIDI YOUSSEF</field>
+	<field name="code">SAKIET_SIDI_YOUSSEF</field>
+	<field search="[('code','=','LE_KEF')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_TATAOUINE_SAMMAR"	model="res.country.state.city">
+	<field name="name">SAMMAR</field>
+	<field name="code">SAMMAR</field>
+	<field search="[('code','=','TATAOUINE')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_ZAGHOUAN_SAOUEF"	model="res.country.state.city">
+	<field name="name">SAOUEF</field>
+	<field name="code">SAOUEF</field>
+	<field search="[('code','=','ZAGHOUAN')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_MONASTIR_SAYADA_LAMTA_BOU_HJAR"	model="res.country.state.city">
+	<field name="name">SAYADA LAMTA BOU HJAR</field>
+	<field name="code">SAYADA_LAMTA_BOU_HJAR</field>
+	<field search="[('code','=','MONASTIR')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_KASSERINE_SBEITLA"	model="res.country.state.city">
+	<field name="name">SBEITLA</field>
+	<field name="code">SBEITLA</field>
+	<field search="[('code','=','KASSERINE')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_KASSERINE_SBIBA"	model="res.country.state.city">
+	<field name="name">SBIBA</field>
+	<field name="code">SBIBA</field>
+	<field search="[('code','=','KASSERINE')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_KAIROUAN_SBIKHA"	model="res.country.state.city">
+	<field name="name">SBIKHA</field>
+	<field name="code">SBIKHA</field>
+	<field search="[('code','=','KAIROUAN')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_BIZERTE_SEJNANE"	model="res.country.state.city">
+	<field name="name">SEJNANE</field>
+	<field name="code">SEJNANE</field>
+	<field search="[('code','=','BIZERTE')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_SFAX_SFAX_EST"	model="res.country.state.city">
+	<field name="name">SFAX EST</field>
+	<field name="code">SFAX_EST</field>
+	<field search="[('code','=','SFAX')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_SFAX_SFAX_MEDINA"	model="res.country.state.city">
+	<field name="name">SFAX MEDINA</field>
+	<field name="code">SFAX_MEDINA</field>
+	<field search="[('code','=','SFAX')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_SFAX_SFAX_SUD"	model="res.country.state.city">
+	<field name="name">SFAX SUD</field>
+	<field name="code">SFAX_SUD</field>
+	<field search="[('code','=','SFAX')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_GAFSA_SIDI_AICH"	model="res.country.state.city">
+	<field name="name">SIDI AICH</field>
+	<field name="code">SIDI_AICH</field>
+	<field search="[('code','=','GAFSA')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_MAHDIA_SIDI_ALOUANE"	model="res.country.state.city">
+	<field name="name">SIDI ALOUANE</field>
+	<field name="code">SIDI_ALOUANE</field>
+	<field search="[('code','=','MAHDIA')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_SOUSSE_SIDI_BOU_ALI"	model="res.country.state.city">
+	<field name="name">SIDI BOU ALI</field>
+	<field name="code">SIDI_BOU_ALI</field>
+	<field search="[('code','=','SOUSSE')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_SILIANA_SIDI_BOUROUIS"	model="res.country.state.city">
+	<field name="name">SIDI BOUROUIS</field>
+	<field name="code">SIDI_BOUROUIS</field>
+	<field search="[('code','=','SILIANA')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_SIDI_BOUZID_SIDI_BOUZID_EST"	model="res.country.state.city">
+	<field name="name">SIDI BOUZID EST</field>
+	<field name="code">SIDI_BOUZID_EST</field>
+	<field search="[('code','=','SIDI_BOUZID')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_SIDI_BOUZID_SIDI_BOUZID_OUEST"	model="res.country.state.city">
+	<field name="name">SIDI BOUZID OUEST</field>
+	<field name="code">SIDI_BOUZID_OUEST</field>
+	<field search="[('code','=','SIDI_BOUZID')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_TUNIS_SIDI_EL_BECHIR"	model="res.country.state.city">
+	<field name="name">SIDI EL BECHIR</field>
+	<field name="code">SIDI_EL_BECHIR</field>
+	<field search="[('code','=','TUNIS')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_SOUSSE_SIDI_EL_HENI"	model="res.country.state.city">
+	<field name="name">SIDI EL HENI</field>
+	<field name="code">SIDI_EL_HENI</field>
+	<field search="[('code','=','SOUSSE')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_TUNIS_SIDI_HASSINE"	model="res.country.state.city">
+	<field name="name">SIDI HASSINE</field>
+	<field name="code">SIDI_HASSINE</field>
+	<field search="[('code','=','TUNIS')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_MEDENINE_SIDI_MAKHLOUF"	model="res.country.state.city">
+	<field name="name">SIDI MAKHLOUF</field>
+	<field name="code">SIDI_MAKHLOUF</field>
+	<field search="[('code','=','MEDENINE')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_ARIANA_SIDI_THABET"	model="res.country.state.city">
+	<field name="name">SIDI THABET</field>
+	<field name="code">SIDI_THABET</field>
+	<field search="[('code','=','ARIANA')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_TUNIS_SIDJOUMI"	model="res.country.state.city">
+	<field name="name">SIDJOUMI</field>
+	<field name="code">SIDJOUMI</field>
+	<field search="[('code','=','TUNIS')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_SILIANA_SILIANA_SUD"	model="res.country.state.city">
+	<field name="name">SILIANA SUD</field>
+	<field name="code">SILIANA_SUD</field>
+	<field search="[('code','=','SILIANA')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_SFAX_SKHIRA"	model="res.country.state.city">
+	<field name="name">SKHIRA</field>
+	<field name="code">SKHIRA</field>
+	<field search="[('code','=','SFAX')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_NABEUL_SOLIMAN"	model="res.country.state.city">
+	<field name="name">SOLIMAN</field>
+	<field name="code">SOLIMAN</field>
+	<field search="[('code','=','NABEUL')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_KEBILI_SOUK_EL_AHAD"	model="res.country.state.city">
+	<field name="name">SOUK EL AHAD</field>
+	<field name="code">SOUK_EL_AHAD</field>
+	<field search="[('code','=','KEBILI')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_SIDI_BOUZID_SOUK_JEDID"	model="res.country.state.city">
+	<field name="name">SOUK JEDID</field>
+	<field name="code">SOUK_JEDID</field>
+	<field search="[('code','=','SIDI_BOUZID')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_SOUSSE_SOUSSE_ERRIADH"	model="res.country.state.city">
+	<field name="name">SOUSSE ERRIADH</field>
+	<field name="code">SOUSSE_ERRIADH</field>
+	<field search="[('code','=','SOUSSE')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_SOUSSE_SOUSSE_JAWHARA"	model="res.country.state.city">
+	<field name="name">SOUSSE JAWHARA</field>
+	<field name="code">SOUSSE_JAWHARA</field>
+	<field search="[('code','=','SOUSSE')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_SOUSSE_SOUSSE_MEDINA"	model="res.country.state.city">
+	<field name="name">SOUSSE MEDINA</field>
+	<field name="code">SOUSSE_MEDINA</field>
+	<field search="[('code','=','SOUSSE')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_SOUSSE_SOUSSE_VILLE"	model="res.country.state.city">
+	<field name="name">SOUSSE VILLE</field>
+	<field name="code">SOUSSE_VILLE</field>
+	<field search="[('code','=','SOUSSE')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_JENDOUBA_TABARKA"	model="res.country.state.city">
+	<field name="name">TABARKA</field>
+	<field name="code">TABARKA</field>
+	<field search="[('code','=','JENDOUBA')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_LE_KEF_TAJEROUINE"	model="res.country.state.city">
+	<field name="name">TAJEROUINE</field>
+	<field name="code">TAJEROUINE</field>
+	<field search="[('code','=','LE_KEF')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_TOZEUR_TAMAGHZA"	model="res.country.state.city">
+	<field name="name">TAMAGHZA</field>
+	<field name="code">TAMAGHZA</field>
+	<field search="[('code','=','TOZEUR')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_TATAOUINE_TATAOUINE_NORD"	model="res.country.state.city">
+	<field name="name">TATAOUINE NORD</field>
+	<field name="code">TATAOUINE_NORD</field>
+	<field search="[('code','=','TATAOUINE')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_TATAOUINE_TATAOUINE_SUD"	model="res.country.state.city">
+	<field name="name">TATAOUINE SUD</field>
+	<field name="code">TATAOUINE_SUD</field>
+	<field search="[('code','=','TATAOUINE')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_MONASTIR_TEBOULBA"	model="res.country.state.city">
+	<field name="name">TEBOULBA</field>
+	<field name="code">TEBOULBA</field>
+	<field search="[('code','=','MONASTIR')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_MANOUBA_TEBOURBA"	model="res.country.state.city">
+	<field name="name">TEBOURBA</field>
+	<field name="code">TEBOURBA</field>
+	<field search="[('code','=','MANOUBA')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_BEJA_TEBOURSOUK"	model="res.country.state.city">
+	<field name="name">TEBOURSOUK</field>
+	<field name="code">TEBOURSOUK</field>
+	<field search="[('code','=','BEJA')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_BEJA_TESTOUR"	model="res.country.state.city">
+	<field name="name">TESTOUR</field>
+	<field name="code">TESTOUR</field>
+	<field search="[('code','=','BEJA')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_KASSERINE_THALA"	model="res.country.state.city">
+	<field name="name">THALA</field>
+	<field name="code">THALA</field>
+	<field search="[('code','=','KASSERINE')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_BEJA_THIBAR"	model="res.country.state.city">
+	<field name="name">THIBAR</field>
+	<field name="code">THIBAR</field>
+	<field search="[('code','=','BEJA')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_BIZERTE_TINJA"	model="res.country.state.city">
+	<field name="name">TINJA</field>
+	<field name="code">TINJA</field>
+	<field search="[('code','=','BIZERTE')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_LE_KEF_TOUIREF"	model="res.country.state.city">
+	<field name="name">TOUIREF</field>
+	<field name="code">TOUIREF</field>
+	<field search="[('code','=','LE_KEF')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_TOZEUR_TOZEUR"	model="res.country.state.city">
+	<field name="name">TOZEUR</field>
+	<field name="code">TOZEUR</field>
+	<field search="[('code','=','TOZEUR')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_BIZERTE_UTIQUE"	model="res.country.state.city">
+	<field name="name">UTIQUE</field>
+	<field name="code">UTIQUE</field>
+	<field search="[('code','=','BIZERTE')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_ZAGHOUAN_ZAGHOUAN"	model="res.country.state.city">
+	<field name="name">ZAGHOUAN</field>
+	<field name="code">ZAGHOUAN</field>
+	<field search="[('code','=','ZAGHOUAN')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_MEDENINE_ZARZIS"	model="res.country.state.city">
+	<field name="name">ZARZIS</field>
+	<field name="code">ZARZIS</field>
+	<field search="[('code','=','MEDENINE')]" model='res.country.state' name='state_id'/>
+</record>
+
+<record id="ville_MONASTIR_ZERAMDINE"	model="res.country.state.city">
+	<field name="name">ZERAMDINE</field>
+	<field name="code">ZERAMDINE</field>
+	<field search="[('code','=','MONASTIR')]" model='res.country.state' name='state_id'/>
+</record>
+
+
+
+<record id="res_country_state_ARIANA" model="res.country.state">
+            <field name="name">ARIANA</field>
+            <field name="code">ARIANA</field>
+            <field search="[('code','=','TN')]"  model='res.country' name='country_id'/>
+        </record>
+<record id="res_country_state_BEJA" model="res.country.state">
+            <field name="name">BEJA</field>
+            <field name="code">BEJA</field>
+            <field search="[('code','=','TN')]"  model='res.country' name='country_id'/>
+        </record>
+<record id="res_country_state_BEN_AROUS" model="res.country.state">
+            <field name="name">BEN AROUS</field>
+            <field name="code">BEN_AROUS</field>
+            <field search="[('code','=','TN')]"  model='res.country' name='country_id'/>
+        </record>
+<record id="res_country_state_BIZERTE" model="res.country.state">
+            <field name="name">BIZERTE</field>
+            <field name="code">BIZERTE</field>
+            <field search="[('code','=','TN')]"  model='res.country' name='country_id'/>
+        </record>
+<record id="res_country_state_GABES" model="res.country.state">
+            <field name="name">GABES</field>
+            <field name="code">GABES</field>
+            <field search="[('code','=','TN')]"  model='res.country' name='country_id'/>
+        </record>
+<record id="res_country_state_GAFSA" model="res.country.state">
+            <field name="name">GAFSA</field>
+            <field name="code">GAFSA</field>
+            <field search="[('code','=','TN')]"  model='res.country' name='country_id'/>
+        </record>
+<record id="res_country_state_JENDOUBA" model="res.country.state">
+            <field name="name">JENDOUBA</field>
+            <field name="code">JENDOUBA</field>
+            <field search="[('code','=','TN')]"  model='res.country' name='country_id'/>
+        </record>
+<record id="res_country_state_KAIROUAN" model="res.country.state">
+            <field name="name">KAIROUAN</field>
+            <field name="code">KAIROUAN</field>
+            <field search="[('code','=','TN')]"  model='res.country' name='country_id'/>
+        </record>
+<record id="res_country_state_KASSERINE" model="res.country.state">
+            <field name="name">KASSERINE</field>
+            <field name="code">KASSERINE</field>
+            <field search="[('code','=','TN')]"  model='res.country' name='country_id'/>
+        </record>
+<record id="res_country_state_KEBILI" model="res.country.state">
+            <field name="name">KEBILI</field>
+            <field name="code">KEBILI</field>
+            <field search="[('code','=','TN')]"  model='res.country' name='country_id'/>
+        </record>
+<record id="res_country_state_LE_KEF" model="res.country.state">
+            <field name="name">LE KEF</field>
+            <field name="code">LE_KEF</field>
+            <field search="[('code','=','TN')]"  model='res.country' name='country_id'/>
+        </record>
+<record id="res_country_state_MAHDIA" model="res.country.state">
+            <field name="name">MAHDIA</field>
+            <field name="code">MAHDIA</field>
+            <field search="[('code','=','TN')]"  model='res.country' name='country_id'/>
+        </record>
+<record id="res_country_state_MANOUBA" model="res.country.state">
+            <field name="name">MANOUBA</field>
+            <field name="code">MANOUBA</field>
+            <field search="[('code','=','TN')]"  model='res.country' name='country_id'/>
+        </record>
+<record id="res_country_state_MEDENINE" model="res.country.state">
+            <field name="name">MEDENINE</field>
+            <field name="code">MEDENINE</field>
+            <field search="[('code','=','TN')]"  model='res.country' name='country_id'/>
+        </record>
+<record id="res_country_state_MONASTIR" model="res.country.state">
+            <field name="name">MONASTIR</field>
+            <field name="code">MONASTIR</field>
+            <field search="[('code','=','TN')]"  model='res.country' name='country_id'/>
+        </record>
+<record id="res_country_state_NABEUL" model="res.country.state">
+            <field name="name">NABEUL</field>
+            <field name="code">NABEUL</field>
+            <field search="[('code','=','TN')]"  model='res.country' name='country_id'/>
+        </record>
+<record id="res_country_state_SFAX" model="res.country.state">
+            <field name="name">SFAX</field>
+            <field name="code">SFAX</field>
+            <field search="[('code','=','TN')]"  model='res.country' name='country_id'/>
+        </record>
+<record id="res_country_state_SIDI_BOUZID" model="res.country.state">
+            <field name="name">SIDI BOUZID</field>
+            <field name="code">SIDI_BOUZID</field>
+            <field search="[('code','=','TN')]"  model='res.country' name='country_id'/>
+        </record>
+<record id="res_country_state_SILIANA" model="res.country.state">
+            <field name="name">SILIANA</field>
+            <field name="code">SILIANA</field>
+            <field search="[('code','=','TN')]"  model='res.country' name='country_id'/>
+        </record>
+<record id="res_country_state_SOUSSE" model="res.country.state">
+            <field name="name">SOUSSE</field>
+            <field name="code">SOUSSE</field>
+            <field search="[('code','=','TN')]"  model='res.country' name='country_id'/>
+        </record>
+<record id="res_country_state_TATAOUINE" model="res.country.state">
+            <field name="name">TATAOUINE</field>
+            <field name="code">TATAOUINE</field>
+            <field search="[('code','=','TN')]"  model='res.country' name='country_id'/>
+        </record>
+<record id="res_country_state_TOZEUR" model="res.country.state">
+            <field name="name">TOZEUR</field>
+            <field name="code">TOZEUR</field>
+            <field search="[('code','=','TN')]"  model='res.country' name='country_id'/>
+        </record>
+<record id="res_country_state_TUNIS" model="res.country.state">
+            <field name="name">TUNIS</field>
+            <field name="code">TUNIS</field>
+            <field search="[('code','=','TN')]"  model='res.country' name='country_id'/>
+        </record>
+<record id="res_country_state_ZAGHOUAN" model="res.country.state">
+            <field name="name">ZAGHOUAN</field>
+            <field name="code">ZAGHOUAN</field>
+            <field search="[('code','=','TN')]"  model='res.country' name='country_id'/>
+        </record>
+
+
+
+
+    </data>
+</openerp>
+

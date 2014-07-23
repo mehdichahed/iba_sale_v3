@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <!-- real_estate_menu_item -->
+
+
+        <menuitem id="menu_config_real_estate_sales" name="Configuration (Real Estate)" parent="menu_real_estate_sales"
+                  sequence="9" groups="base.group_system"/>
+
+        <!-- real_estate_facing_estate_product_action_view and menu item -->
+        <record id="action_real_estate_facing_estate_product_tree" model="ir.actions.act_window">
+            <field name="name">Facing product (Real Estate)</field>
+            <field name="res_model">facing.estate.product</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">kanban,tree,form</field>
+            <field name="domain"
+                   eval=""/>
+            <field name="help" type="html">
+                <p class="oe_view_nocontent_create">
+                    Click to setup a new Real Estate Facing.
+                </p>
+                <p>
+                    Configure your Real Estate's Facing.
+                </p>
+                <p>
+                    If you use the Real Estate application of your OpenERP, notifcation to the
+                    account manager will be created automatically based on these data.
+                </p>
+            </field>
+        </record>
+        <menuitem id="menu_real_estate_facing_estate_product_tree" name="Facing (Real Estate)"
+                  parent="menu_config_real_estate_sales" action="action_real_estate_facing_estate_product_tree"
+                  sequence="0"/>
+
+        <!-- real_estate_project_estate_product_action_view and menu item -->
+        <record id="action_real_estate_project_estate_product_tree" model="ir.actions.act_window">
+            <field name="name">Real Estate Project (Real Estate)</field>
+            <field name="res_model">project.estate.product</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">kanban,tree,form</field>
+            <field name="domain"
+                   eval=""/>
+            <field name="help" type="html">
+                <p class="oe_view_nocontent_create">
+                    Click to setup a new Real Estate project.
+                </p>
+                <p>
+                    Configure your Real Estate's Project.
+                </p>
+                <p>
+                    If you use the Real Estate application of your OpenERP, notifcation to the
+                    account manager will be created automatically based on these data.
+                </p>
+            </field>
+        </record>
+        <menuitem id="menu_real_estate_project_estate_product_tree" name="Project (Real Estate)"
+                  parent="menu_config_real_estate_sales" action="action_real_estate_project_estate_product_tree"
+                  sequence="0"/>
+
+        <!-- real_estate_round_estate_product_action_view and menu item -->
+        <record id="action_real_estate_round_estate_product_tree" model="ir.actions.act_window">
+            <field name="name">Round product (Real Estate)</field>
+            <field name="res_model">round.estate.product</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">kanban,tree,form</field>
+            <field name="domain"
+                   eval=""/>
+            <field name="help" type="html">
+                <p class="oe_view_nocontent_create">
+                    Click to setup a new Real Estate Round.
+                </p>
+                <p>
+                    Configure your Real Estate's round.
+                </p>
+                <p>
+                    If you use the Real Estate application of your OpenERP, notifcation to the
+                    account manager will be created automatically based on these data.
+                </p>
+            </field>
+        </record>
+        <menuitem id="menu_real_estate_round_estate_product_tree" name="Rounding (Real Estate)"
+                  parent="menu_config_real_estate_sales" action="action_real_estate_round_estate_product_tree"
+                  sequence="0"/>
+
+        <!-- real_estate_property_type_estate_product_action_view and menu item -->
+        <record id="action_real_estate_property_type_estate_product_tree" model="ir.actions.act_window">
+            <field name="name">Property type (Real Estate)</field>
+            <field name="res_model">property.type.estate.product</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">kanban,tree,form</field>
+            <field name="domain"
+                   eval=""/>
+            <field name="help" type="html">
+                <p class="oe_view_nocontent_create">
+                    Click to setup a new Real Estate Property type .
+                </p>
+                <p>
+                    Configure your Real Estate's Property.
+                </p>
+                <p>
+                    If you use the Real Estate application of your OpenERP, notifcation to the
+                    account manager will be created automatically based on these data.
+                </p>
+            </field>
+        </record>
+        <menuitem id="menu_real_estate_property_type_estate_product_tree" name="Property type"
+                  parent="menu_config_real_estate_sales" action="action_real_estate_property_type_estate_product_tree"
+                  sequence="0"/>
+
+        <!-- real_estate_room_estate_product_action_view and menu item -->
+        <record id="action_real_estate_room_estate_product_tree" model="ir.actions.act_window">
+            <field name="name">Room product (Real Estate)</field>
+            <field name="res_model">room.estate.product</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">kanban,tree,form</field>
+            <field name="domain"
+                   eval=""/>
+            <field name="help" type="html">
+                <p class="oe_view_nocontent_create">
+                    Click to setup a new Real Estate room.
+                </p>
+                <p>
+                    Configure your Real Estate's room.
+                </p>
+                <p>
+                    If you use the Real Estate application of your OpenERP, notifcation to the
+                    account manager will be created automatically based on these data.
+                </p>
+            </field>
+        </record>
+        <menuitem id="menu_real_estate_room_estate_product_tree" name="Room product"
+                  parent="menu_config_real_estate_sales" action="action_real_estate_room_estate_product_tree"
+                  sequence="0"/>
+
+        <!-- real_estate_floor_estate_product_action_view and menu item -->
+        <record id="action_real_estate_floor_estate_product_tree" model="ir.actions.act_window">
+            <field name="name">Floor product (Real Estate)</field>
+            <field name="res_model">floor.estate.product</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">kanban,tree,form</field>
+            <field name="domain"
+                   eval=""/>
+            <field name="help" type="html">
+                <p class="oe_view_nocontent_create">
+                    Click to setup a new Real Estate Floor.
+                </p>
+                <p>
+                    Configure your Real Estate's Floor.
+                </p>
+                <p>
+                    If you use the Real Estate application of your OpenERP, notifcation to the
+                    account manager will be created automatically based on these data.
+                </p>
+            </field>
+        </record>
+        <menuitem id="menu_real_estate_floor_estate_product_tree" name="Floor (Real Estate)"
+                  parent="menu_config_real_estate_sales" action="action_real_estate_floor_estate_product_tree"
+                  sequence="0"/>
+
+
+        <!-- real_estate_project_estate_product -->
+
+        <!-- real_estate_project_estate_product_form_view -->
+        <record id="real_estate_project_estate_product_form" model="ir.ui.view">
+            <field name="name">real.estate.project.estate.product.form</field>
+            <field name="model">project.estate.product</field>
+            <field name="arch" type="xml">
+                <form string="Project" version="7.0">
+                    <field name="name"/>
+                    <field name="active"/>
+                    <field name="description"/>
+
+                </form>
+            </field>
+        </record>
+
+        <!-- real_estate_project_estate_product_tree_view -->
+        <record id="real_estate_project_estate_product_tree" model="ir.ui.view">
+            <field name="name">real.estate.project.estate.product.tree</field>
+            <field name="model">project.estate.product</field>
+            <field name="arch" type="xml">
+                <tree string="Project">
+                    <field name="name"/>
+                    <field name="active"/>
+                    <field name="description"/>
+
+                </tree>
+            </field>
+        </record>
+
+
+        <!-- real_estate_project_estate_product_kanban_view -->
+        <record id="real_estate_project_estate_product_kanban" model="ir.ui.view">
+            <field name="name">real.estate.project.estate.product.kanban</field>
+            <field name="model">project.estate.product</field>
+            <field name="arch" type="xml">
+                <kanban>
+                    <field name="name"/>
+                    <field name="active"/>
+                    <field name="description"/>
+                    <templates>
+                        <t t-name="kanban-box">
+                            <div class="oe_kanban_vignette oe_semantic_html_override">
+                                <div class="oe_kanban_details">
+                                    <h4>
+                                        <a type="open">
+                                            <field name="name"/>
+                                        </a>
+                                    </h4>
+                                    <div name="active"/>
+                                </div>
+                            </div>
+                        </t>
+                    </templates>
+                </kanban>
+            </field>
+        </record>
+
+        <!-- real_estate_project_estate_product_select_view -->
+        <record id="real_estate_project_estate_product_select" model="ir.ui.view">
+            <field name="name">real.estate.project.estate.product.select</field>
+            <field name="model">project.estate.product</field>
+            <field name="arch" type="xml">
+                <search string="Search Partner">
+
+
+                </search>
+            </field>
+        </record>
+
+
+        <!-- real_estate_facing_estate_product -->
+
+        <!-- real_estate_facing_estate_product_form_view -->
+        <record id="real_estate_facing_estate_product_form" model="ir.ui.view">
+            <field name="name">real.estate.facing.estate.product.form</field>
+            <field name="model">facing.estate.product</field>
+            <field name="arch" type="xml">
+                <form string="Facing" version="7.0">
+                    <field name="name"/>
+                    <field name="active"/>
+                    <field name="description"/>
+
+                </form>
+            </field>
+        </record>
+
+        <!-- real_estate_facing_estate_product_tree_view -->
+        <record id="real_estate_facing_estate_product_tree" model="ir.ui.view">
+            <field name="name">real.estate.facing.estate.product.tree</field>
+            <field name="model">facing.estate.product</field>
+            <field name="arch" type="xml">
+                <tree string="Facing">
+                    <field name="name"/>
+                    <field name="active"/>
+                    <field name="description"/>
+                </tree>
+            </field>
+        </record>
+
+
+        <!-- real_estate_facing_estate_product_kanban_view -->
+        <record id="real_estate_facing_estate_product_kanban" model="ir.ui.view">
+            <field name="name">real.estate.facing.estate.product.kanban</field>
+            <field name="model">facing.estate.product</field>
+            <field name="arch" type="xml">
+                <kanban>
+                    <field name="name"/>
+                    <field name="active"/>
+                    <field name="description"/>
+                    <templates>
+                        <t t-name="kanban-box">
+                            <div class="oe_kanban_vignette oe_semantic_html_override">
+                                <div class="oe_kanban_details">
+                                    <h4>
+                                        <a type="open">
+                                            <field name="name"/>
+                                        </a>
+                                    </h4>
+                                    <div name="active"/>
+                                </div>
+                            </div>
+                        </t>
+                    </templates>
+                </kanban>
+            </field>
+        </record>
+
+        <!-- real_estate_facing_estate_product_select_view -->
+        <record id="real_estate_facing_estate_product_select" model="ir.ui.view">
+            <field name="name">real.estate.facing.estate.product.select</field>
+            <field name="model">facing.estate.product</field>
+            <field name="arch" type="xml">
+                <search string="Search Partner">
+
+
+                </search>
+            </field>
+        </record>
+
+
+        <!-- real_estate_round_estate_product -->
+
+        <!-- real_estate_round_estate_product_form_view -->
+        <record id="real_estate_round_estate_product_form" model="ir.ui.view">
+            <field name="name">real.estate.round.estate.product.form</field>
+            <field name="model">round.estate.product</field>
+            <field name="arch" type="xml">
+                <form string="Rounding" version="7.0">
+                    <field name="name"/>
+                    <field name="active"/>
+                    <field name="description"/>
+
+                </form>
+            </field>
+        </record>
+
+        <!-- real_estate_round_estate_product_tree_view -->
+        <record id="real_estate_round_estate_product_tree" model="ir.ui.view">
+            <field name="name">real.estate.round.estate.product.tree</field>
+            <field name="model">round.estate.product</field>
+            <field name="arch" type="xml">
+                <tree string="Rounding">
+                    <field name="name"/>
+                    <field name="active"/>
+                    <field name="description"/>
+                </tree>
+            </field>
+        </record>
+
+
+        <!-- real_estate_round_estate_product_kanban_view -->
+        <record id="real_estate_round_estate_product_kanban" model="ir.ui.view">
+            <field name="name">real.estate.round.estate.product.kanban</field>
+            <field name="model">round.estate.product</field>
+            <field name="arch" type="xml">
+                <kanban>
+                    <field name="name"/>
+                    <field name="active"/>
+                    <field name="description"/>
+                    <templates>
+                        <t t-name="kanban-box">
+                            <div class="oe_kanban_vignette oe_semantic_html_override">
+                                <div class="oe_kanban_details">
+                                    <h4>
+                                        <a type="open">
+                                            <field name="name"/>
+                                        </a>
+                                    </h4>
+                                    <div name="active"/>
+                                </div>
+                            </div>
+                        </t>
+                    </templates>
+                </kanban>
+            </field>
+        </record>
+
+        <!-- real_estate_round_estate_product_select_view -->
+        <record id="real_estate_round_estate_product_select" model="ir.ui.view">
+            <field name="name">real.estate.round.estate.product.select</field>
+            <field name="model">round.estate.product</field>
+            <field name="arch" type="xml">
+                <search string="Search Partner">
+
+
+                </search>
+            </field>
+        </record>
+
+
+        <!-- real_estate_property_type_estate_product -->
+
+        <!-- real_estate_property_type_estate_product_form_view -->
+        <record id="real_estate_property_type_estate_product_form" model="ir.ui.view">
+            <field name="name">real.estate.property.type.estate.product.form</field>
+            <field name="model">property.type.estate.product</field>
+            <field name="arch" type="xml">
+                <form string="Property type" version="7.0">
+                    <field name="name"/>
+                    <field name="active"/>
+                    <field name="description"/>
+
+                </form>
+            </field>
+        </record>
+
+        <!-- real_estate_property_type_estate_product_tree_view -->
+        <record id="real_estate_property_type_estate_product_tree" model="ir.ui.view">
+            <field name="name">real.estate.property.type.estate.product.tree</field>
+            <field name="model">property.type.estate.product</field>
+            <field name="arch" type="xml">
+                <tree string="Property Type">
+                    <field name="name"/>
+                    <field name="active"/>
+                    <field name="description"/>
+                </tree>
+            </field>
+        </record>
+
+
+        <!-- real_estate_property_type_estate_product_kanban_view -->
+        <record id="real_estate_property_type_estate_product_kanban" model="ir.ui.view">
+            <field name="name">real.estate.property.type.estate.product.kanban</field>
+            <field name="model">property.type.estate.product</field>
+            <field name="arch" type="xml">
+                <kanban>
+                    <field name="name"/>
+                    <field name="active"/>
+                    <field name="description"/>
+                    <templates>
+                        <t t-name="kanban-box">
+                            <div class="oe_kanban_vignette oe_semantic_html_override">
+                                <div class="oe_kanban_details">
+                                    <h4>
+                                        <a type="open">
+                                            <field name="name"/>
+                                        </a>
+                                    </h4>
+                                    <div name="active"/>
+                                </div>
+                            </div>
+                        </t>
+                    </templates>
+                </kanban>
+            </field>
+        </record>
+
+        <!-- real_estate_property_type_estate_product_select_view -->
+        <record id="real_estate_property_type_estate_product_select" model="ir.ui.view">
+            <field name="name">real.estate.property.type.estate.product.select</field>
+            <field name="model">property.type.estate.product</field>
+            <field name="arch" type="xml">
+                <search string="Search Partner">
+
+
+                </search>
+            </field>
+        </record>
+
+
+        <!-- real_estate_room_estate_product -->
+
+        <!-- real_estate_room_estate_product_form_view -->
+        <record id="real_estate_room_estate_product_form" model="ir.ui.view">
+            <field name="name">real.estate.room.estate.product.form</field>
+            <field name="model">room.estate.product</field>
+            <field name="arch" type="xml">
+                <form string="Room" version="7.0">
+                    <field name="name"/>
+                    <field name="active"/>
+                    <field name="description"/>
+
+                </form>
+            </field>
+        </record>
+
+        <!-- real_estate_room_estate_product_tree_view -->
+        <record id="real_estate_room_estate_product_tree" model="ir.ui.view">
+            <field name="name">real.estate.room.estate.product.tree</field>
+            <field name="model">room.estate.product</field>
+            <field name="arch" type="xml">
+                <tree string="Room">
+                    <field name="name"/>
+                    <field name="active"/>
+                    <field name="description"/>
+                </tree>
+            </field>
+        </record>
+
+
+        <!-- real_estate_room_estate_product_kanban_view -->
+        <record id="real_estate_room_estate_product_kanban" model="ir.ui.view">
+            <field name="name">real.estate.room.estate.product.kanban</field>
+            <field name="model">room.estate.product</field>
+            <field name="arch" type="xml">
+                <kanban>
+                    <field name="name"/>
+                    <field name="active"/>
+                    <field name="description"/>
+                    <templates>
+                        <t t-name="kanban-box">
+                            <div class="oe_kanban_vignette oe_semantic_html_override">
+                                <div class="oe_kanban_details">
+                                    <h4>
+                                        <a type="open">
+                                            <field name="name"/>
+                                        </a>
+                                    </h4>
+                                    <div name="active"/>
+                                </div>
+                            </div>
+                        </t>
+                    </templates>
+                </kanban>
+            </field>
+        </record>
+
+        <!-- real_estate_room_estate_product_select_view -->
+        <record id="real_estate_room_estate_product_select" model="ir.ui.view">
+            <field name="name">real.estate.room.estate.product.select</field>
+            <field name="model">room.estate.product</field>
+            <field name="arch" type="xml">
+                <search string="Search Partner">
+
+
+                </search>
+            </field>
+        </record>
+
+
+        <!-- real_estate_floor_estate_product -->
+
+        <!-- real_estate_floor_estate_product_form_view -->
+        <record id="real_estate_floor_estate_product_form" model="ir.ui.view">
+            <field name="name">real.estate.floor.estate.product.form</field>
+            <field name="model">floor.estate.product</field>
+            <field name="arch" type="xml">
+                <form string="Floor" version="7.0">
+                    <field name="name"/>
+                    <field name="active"/>
+                    <field name="description"/>
+                </form>
+            </field>
+        </record>
+
+        <!-- real_estate_floor_estate_product_tree_view -->
+        <record id="real_estate_floor_estate_product_tree" model="ir.ui.view">
+            <field name="name">real.estate.floor.estate.product.tree</field>
+            <field name="model">floor.estate.product</field>
+            <field name="arch" type="xml">
+                <tree string="Floor">
+                    <field name="name"/>
+                    <field name="active"/>
+                    <field name="description"/>
+                </tree>
+            </field>
+        </record>
+
+
+        <!-- real_estate_floor_estate_product_kanban_view -->
+        <record id="real_estate_floor_estate_product_kanban" model="ir.ui.view">
+            <field name="name">real.estate.floor.estate.product.kanban</field>
+            <field name="model">floor.estate.product</field>
+            <field name="arch" type="xml">
+                <kanban>
+                    <field name="name"/>
+                    <field name="active"/>
+                    <field name="description"/>
+                    <templates>
+                        <t t-name="kanban-box">
+                            <div class="oe_kanban_vignette oe_semantic_html_override">
+                                <div class="oe_kanban_details">
+                                    <h4>
+                                        <a type="open">
+                                            <field name="name"/>
+                                        </a>
+                                    </h4>
+                                    <div name="active"/>
+                                </div>
+                            </div>
+                        </t>
+                    </templates>
+                </kanban>
+            </field>
+        </record>
+
+        <!-- real_estate_floor_estate_product_select_view -->
+        <record id="real_estate_floor_estate_product_select" model="ir.ui.view">
+            <field name="name">real.estate.floor.estate.product.select</field>
+            <field name="model">floor.estate.product</field>
+            <field name="arch" type="xml">
+                <search string="Search Partner">
+
+
+                </search>
+            </field>
+        </record>
+
+
+    </data>
+</openerp>

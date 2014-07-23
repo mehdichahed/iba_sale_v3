@@ -1,0 +1,732 @@
+# Translation of OpenERP Server.
+# This file contains the translation of the following modules:
+#	* iba_sale_v3
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenERP Server 7.0-20140704-231200\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-07-07 23:57+0000\n"
+"PO-Revision-Date: 2014-07-08 02:16+0100\n"
+"Last-Translator: Mehdi Chahed <chahed.mehdi@gmail.com>\n"
+"Language-Team: DevCostKiller Tunisie (SARL)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+
+#. module: iba_sale_v3
+#: selection:product.product,type_appartement:0
+msgid "S+2vm"
+msgstr ""
+
+#. module: iba_sale_v3
+#: selection:product.product,type_local:0
+msgid "Boutique"
+msgstr ""
+
+#. module: iba_sale_v3
+#: selection:product.product,type_local:0
+msgid "Bureau"
+msgstr ""
+
+#. module: iba_sale_v3
+#: selection:product.product,type_local:0
+msgid "Divers"
+msgstr ""
+
+#. module: iba_sale_v3
+#: field:product.product,project:0
+msgid "Projet"
+msgstr ""
+
+#. module: iba_sale_v3
+#: model:res.partner.category,name:iba_sale_v3.res_partner_category_employee
+msgid "Employé"
+msgstr ""
+
+#. module: iba_sale_v3
+#: field:res.partner,national_identity_number_state:0
+msgid "place of issue"
+msgstr "Lieu de délivrance"
+
+#. module: iba_sale_v3
+#: selection:product.product,type:0
+msgid "Service"
+msgstr ""
+
+#. module: iba_sale_v3
+#: selection:product.product,etage:0
+msgid "3eme"
+msgstr ""
+
+#. module: iba_sale_v3
+#: constraint:sale.order:0
+msgid "the percentage entered must be between 0 and 100 "
+msgstr ""
+
+#. module: iba_sale_v3
+#: field:account.voucher,purchase_order_id:0
+msgid "Purchase order"
+msgstr ""
+
+#. module: iba_sale_v3
+#: selection:product.product,etage:0
+msgid "4eme"
+msgstr ""
+
+#. module: iba_sale_v3
+#: selection:product.product,type_orientation:0
+msgid "Nord-Est"
+msgstr ""
+
+#. module: iba_sale_v3
+#: model:res.groups,name:iba_sale_v3.group_purchase_service_technique
+msgid "Technical Department"
+msgstr "Département Technique"
+
+#. module: iba_sale_v3
+#: selection:product.product,type_appartement:0
+msgid "S+4vm"
+msgstr ""
+
+#. module: iba_sale_v3
+#: field:res.partner,child_contacts:0
+msgid "Spouse"
+msgstr "Époux (se)"
+
+#. module: iba_sale_v3
+#: selection:product.product,type_local:0
+msgid "Maison/Villa"
+msgstr ""
+
+#. module: iba_sale_v3
+#: selection:product.product,etage:0
+msgid "2eme"
+msgstr ""
+
+#. module: iba_sale_v3
+#: view:res.partner:0
+msgid "ZIP"
+msgstr "Code Postal"
+
+#. module: iba_sale_v3
+#: selection:product.product,type_appartement:0
+msgid " Places De Parking"
+msgstr ""
+
+#. module: iba_sale_v3
+#: model:email.template,subject:iba_sale_v3.iba_mail_template_acc_voucher_reserved
+msgid "Mise a jour du statut de votre bien"
+msgstr ""
+
+#. module: iba_sale_v3
+#: view:res.partner:0
+msgid "Mobile:"
+msgstr ""
+
+#. module: iba_sale_v3
+#: field:product.product,etage:0
+msgid "Etage"
+msgstr ""
+
+#. module: iba_sale_v3
+#: field:product.product,type:0
+msgid "Product Type"
+msgstr "Type de Produit"
+
+#. module: iba_sale_v3
+#: selection:product.product,type_local:0
+msgid "Appartement"
+msgstr ""
+
+#. module: iba_sale_v3
+#: selection:product.product,type_orientation:0
+msgid "Sud-Est"
+msgstr ""
+
+#. module: iba_sale_v3
+#: field:res.partner,national_identity_issue:0
+msgid "Date of issue"
+msgstr "Date de délivrance"
+
+#. module: iba_sale_v3
+#: view:res.partner:0
+msgid "Bank Information"
+msgstr ""
+
+#. module: iba_sale_v3
+#: selection:res.partner,gender:0
+msgid "Female"
+msgstr ""
+
+#. module: iba_sale_v3
+#: model:ir.model,name:iba_sale_v3.model_res_partner
+msgid "Partner"
+msgstr "Partenaire"
+
+#. module: iba_sale_v3
+#: model:ir.model,name:iba_sale_v3.model_sale_order
+msgid "Sales Order"
+msgstr ""
+
+#. module: iba_sale_v3
+#: model:ir.model,name:iba_sale_v3.model_account_voucher
+msgid "Accounting Voucher"
+msgstr ""
+
+#. module: iba_sale_v3
+#: view:res.partner:0
+msgid "00000000"
+msgstr ""
+
+#. module: iba_sale_v3
+#: selection:product.product,type_local:0
+msgid "Terrain"
+msgstr ""
+
+#. module: iba_sale_v3
+#: field:product.product,status:0
+msgid "Status of property"
+msgstr "Statut du bien immobilier"
+
+#. module: iba_sale_v3
+#: field:product.product,surface_jardin:0
+msgid "Surface jardin"
+msgstr ""
+
+#. module: iba_sale_v3
+#: view:res.partner:0
+msgid "State"
+msgstr "État"
+
+#. module: iba_sale_v3
+#: view:res.partner:0
+msgid "Tags..."
+msgstr ""
+
+#. module: iba_sale_v3
+#: selection:product.product,status:0
+msgid "New"
+msgstr "Nouveau"
+
+#. module: iba_sale_v3
+#: help:product.product,list_price:0
+msgid "Base price to compute the customer price. Sometimes called the catalog price."
+msgstr ""
+
+#. module: iba_sale_v3
+#: field:product.product,type_local:0
+msgid "Type"
+msgstr ""
+
+#. module: iba_sale_v3
+#: view:res.partner:0
+msgid "Fax:"
+msgstr ""
+
+#. module: iba_sale_v3
+#: field:res.partner,birthday:0
+msgid "Birthday date"
+msgstr "Date de naissance"
+
+#. module: iba_sale_v3
+#: help:product.product,type:0
+msgid ""
+"Consumable: Will not imply stock management for this product. \n"
+"Stockable product: Will imply stock management for this product."
+msgstr ""
+
+#. module: iba_sale_v3
+#: selection:res.partner,marital:0
+msgid "married on the basis of joint ownership of property"
+msgstr "marié sous le régime des biens communs"
+
+#. module: iba_sale_v3
+#: selection:product.product,type_orientation:0
+msgid "Ouest"
+msgstr ""
+
+#. module: iba_sale_v3
+#: selection:product.product,type_orientation:0
+msgid "Nord_Ouest"
+msgstr ""
+
+#. module: iba_sale_v3
+#: model:email.template,body_html:iba_sale_v3.iba_mail_template_acc_voucher_reserved
+msgid ""
+"\n"
+"                <p><em>Bonjour Mr   <strong>${object.partner_id.name}</strong>,  </em></p>\n"
+"                    <p><em>..... Changement du statut de votre bien :   Bien  <span style=\"color: #ff0000;\"><strong>${object.bon_commande_id.order_line.product_id[0].name}</strong></span></em></p>\n"
+"                    <p><em>Ref de la vente : <span style=\"color: #3366ff;\">${object.bon_commande_id.name}</span></em></p>\n"
+"                    <p><em>Etat actuelle du bien . </em><span style=\"color: #3366ff;\"><em>${object.bon_commande_id.order_line[0].product_id.statut}</em></span></p>\n"
+"                    <p><em><br /></em></p>\n"
+"                    <p><em><br /></em></p>\n"
+"                    <p><em>Cordialement</em></p>\n"
+"                    <div><em><br /></em></div>\n"
+"            "
+msgstr ""
+
+#. module: iba_sale_v3
+#: field:res.partner,gender:0
+msgid "Gender"
+msgstr "Genre"
+
+#. module: iba_sale_v3
+#: selection:product.product,project:0
+msgid "Les Sables Argentées"
+msgstr ""
+
+#. module: iba_sale_v3
+#: selection:product.product,type:0
+msgid "Consumable"
+msgstr "Consommable"
+
+#. module: iba_sale_v3
+#: selection:product.product,etage:0
+msgid "Rez de jardin"
+msgstr ""
+
+#. module: iba_sale_v3
+#: view:sale.order:0
+msgid "Approve the order"
+msgstr "Approuver l'ordre"
+
+#. module: iba_sale_v3
+#: selection:res.partner,marital:0
+msgid "Divorced"
+msgstr "Divorcé(e)"
+
+#. module: iba_sale_v3
+#: model:ir.model,name:iba_sale_v3.model_account_voucher_line
+msgid "Voucher Lines"
+msgstr ""
+
+#. module: iba_sale_v3
+#: model:res.groups,name:iba_sale_v3.group_purchase_service_comptable
+msgid "Accounting Department"
+msgstr "Département Comptable"
+
+#. module: iba_sale_v3
+#: view:res.partner:0
+msgid "Contact"
+msgstr ""
+
+#. module: iba_sale_v3
+#: view:res.partner:0
+msgid "National identity card"
+msgstr "Carte d’identité nationale"
+
+#. module: iba_sale_v3
+#: field:product.product,list_price:0
+msgid "Prix de vente"
+msgstr ""
+
+#. module: iba_sale_v3
+#: selection:res.partner,gender:0
+msgid "Male"
+msgstr ""
+
+#. module: iba_sale_v3
+#: selection:product.product,project:0
+msgid "Jinene Beni Khiar"
+msgstr ""
+
+#. module: iba_sale_v3
+#: selection:product.product,type_appartement:0
+msgid "Dup 6"
+msgstr ""
+
+#. module: iba_sale_v3
+#: selection:product.product,type_appartement:0
+msgid "Dup 7"
+msgstr ""
+
+#. module: iba_sale_v3
+#: selection:product.product,type_appartement:0
+msgid "Dup 4"
+msgstr ""
+
+#. module: iba_sale_v3
+#: selection:product.product,type_appartement:0
+msgid "Dup 5"
+msgstr ""
+
+#. module: iba_sale_v3
+#: selection:product.product,type_appartement:0
+msgid "Dup 2"
+msgstr ""
+
+#. module: iba_sale_v3
+#: selection:product.product,type_appartement:0
+msgid "Dup 3"
+msgstr ""
+
+#. module: iba_sale_v3
+#: field:sale.order,percentage_of_promise:0
+msgid "Percentage of promise (%)"
+msgstr "Pourcentage de la promesse"
+
+#. module: iba_sale_v3
+#: selection:product.product,type_local:0
+msgid "Local commercial"
+msgstr ""
+
+#. module: iba_sale_v3
+#: selection:product.product,type_appartement:0
+msgid "Dup 8"
+msgstr ""
+
+#. module: iba_sale_v3
+#: selection:product.product,type_appartement:0
+msgid "Dup 9"
+msgstr ""
+
+#. module: iba_sale_v3
+#: selection:product.product,etage:0
+msgid "Sous Sol"
+msgstr ""
+
+#. module: iba_sale_v3
+#: selection:product.product,status:0
+msgid "Promised to"
+msgstr "Promis"
+
+#. module: iba_sale_v3
+#: field:res.partner,national_identity_number:0
+msgid "Unique national identity number"
+msgstr "Numéro unique d'identité"
+
+#. module: iba_sale_v3
+#: selection:product.product,type_appartement:0
+msgid "S+3vm"
+msgstr ""
+
+#. module: iba_sale_v3
+#: selection:product.product,type_appartement:0
+msgid "S+4"
+msgstr ""
+
+#. module: iba_sale_v3
+#: view:res.partner:0
+msgid "Street..."
+msgstr "Rue..."
+
+#. module: iba_sale_v3
+#: selection:product.product,type_orientation:0
+msgid "Sud"
+msgstr ""
+
+#. module: iba_sale_v3
+#: model:ir.model,name:iba_sale_v3.model_account_move_reconcile
+msgid "Account Reconciliation"
+msgstr ""
+
+#. module: iba_sale_v3
+#: field:res.partner,marital:0
+msgid "Marital situation "
+msgstr "SItuation maritale"
+
+#. module: iba_sale_v3
+#: model:res.groups,name:iba_sale_v3.group_purchase_chef_de_projet
+msgid "Project Manager"
+msgstr "Chef de projet"
+
+#. module: iba_sale_v3
+#: model:ir.model,name:iba_sale_v3.model_account_analytic_line
+msgid "Analytic Line"
+msgstr ""
+
+#. module: iba_sale_v3
+#: selection:product.product,etage:0
+#: selection:product.product,type_appartement:0
+msgid "Duplex"
+msgstr ""
+
+#. module: iba_sale_v3
+#: selection:product.product,type:0
+msgid "Bien immobilier"
+msgstr ""
+
+#. module: iba_sale_v3
+#: field:product.product,marge:0
+msgid "Marge"
+msgstr ""
+
+#. module: iba_sale_v3
+#: model:ir.model,name:iba_sale_v3.model_account_move_line
+msgid "Journal Items"
+msgstr ""
+
+#. module: iba_sale_v3
+#: field:product.product,surface_totale:0
+msgid "Surface totale"
+msgstr ""
+
+#. module: iba_sale_v3
+#: model:res.groups,name:iba_sale_v3.group_purchase_DAF
+msgid "Chief Financial Officer"
+msgstr "Directeur Administratif et Financier"
+
+#. module: iba_sale_v3
+#: selection:product.product,type_orientation:0
+msgid "Sud-Ouest"
+msgstr ""
+
+#. module: iba_sale_v3
+#: field:product.product,surface_otc:0
+msgid "Surface OTC"
+msgstr ""
+
+#. module: iba_sale_v3
+#: field:res.partner,parent_id_contacts:0
+msgid "Related Company"
+msgstr ""
+
+#. module: iba_sale_v3
+#: selection:product.product,etage:0
+msgid "1er"
+msgstr ""
+
+#. module: iba_sale_v3
+#: view:res.partner:0
+msgid "Nationality and other information"
+msgstr "Nationalité et autres informations"
+
+#. module: iba_sale_v3
+#: selection:product.product,etage:0
+msgid "RDC"
+msgstr ""
+
+#. module: iba_sale_v3
+#: field:product.product,terasse_couverte:0
+msgid "Terrace couverte"
+msgstr ""
+
+#. module: iba_sale_v3
+#: selection:product.product,type:0
+msgid "Marchandise"
+msgstr ""
+
+#. module: iba_sale_v3
+#: field:product.product,type_orientation:0
+msgid "Orientation"
+msgstr ""
+
+#. module: iba_sale_v3
+#: selection:product.product,type_appartement:0
+msgid "Dup 1"
+msgstr ""
+
+#. module: iba_sale_v3
+#: selection:product.product,status:0
+msgid "Sold out"
+msgstr "Vendu"
+
+#. module: iba_sale_v3
+#: model:ir.model,name:iba_sale_v3.model_account_invoice
+msgid "Invoice"
+msgstr "Facture"
+
+#. module: iba_sale_v3
+#: selection:product.product,type_local:0
+msgid "Parking"
+msgstr ""
+
+#. module: iba_sale_v3
+#: selection:product.product,bloc:0
+msgid "TRANCHE F"
+msgstr ""
+
+#. module: iba_sale_v3
+#: view:res.partner:0
+msgid "e.g. Sales Director"
+msgstr "ex. Directeur Commercial"
+
+#. module: iba_sale_v3
+#: view:res.partner:0
+msgid "City"
+msgstr "Ville"
+
+#. module: iba_sale_v3
+#: selection:product.product,type_orientation:0
+msgid "Est"
+msgstr ""
+
+#. module: iba_sale_v3
+#: selection:product.product,type_appartement:0
+msgid "S+1"
+msgstr ""
+
+#. module: iba_sale_v3
+#: selection:product.product,type_appartement:0
+msgid "S+3"
+msgstr ""
+
+#. module: iba_sale_v3
+#: selection:product.product,type_appartement:0
+msgid "S+2"
+msgstr ""
+
+#. module: iba_sale_v3
+#: field:product.product,surface_commune:0
+msgid "Surface commune"
+msgstr ""
+
+#. module: iba_sale_v3
+#: selection:product.product,bloc:0
+msgid "TRANCHE E"
+msgstr ""
+
+#. module: iba_sale_v3
+#: view:sale.order:0
+msgid "confirm the sale"
+msgstr ""
+
+#. module: iba_sale_v3
+#: selection:product.product,bloc:0
+msgid "TRANCHE B"
+msgstr ""
+
+#. module: iba_sale_v3
+#: selection:product.product,bloc:0
+msgid "TRANCHE C"
+msgstr ""
+
+#. module: iba_sale_v3
+#: selection:product.product,bloc:0
+msgid "TRANCHE A"
+msgstr ""
+
+#. module: iba_sale_v3
+#: field:product.product,bloc:0
+msgid "Bloc"
+msgstr ""
+
+#. module: iba_sale_v3
+#: selection:product.product,bloc:0
+msgid "TRANCHE G"
+msgstr ""
+
+#. module: iba_sale_v3
+#: selection:product.product,bloc:0
+msgid "TRANCHE D"
+msgstr ""
+
+#. module: iba_sale_v3
+#: selection:product.product,type_orientation:0
+msgid "Nord"
+msgstr ""
+
+#. module: iba_sale_v3
+#: field:product.product,surface_hors_oeuvre:0
+msgid "Surface hors oeuvre"
+msgstr ""
+
+#. module: iba_sale_v3
+#: model:ir.model,name:iba_sale_v3.model_product_product
+msgid "Product"
+msgstr "Produit"
+
+#. module: iba_sale_v3
+#: selection:product.product,type_local:0
+msgid "Immeuble"
+msgstr ""
+
+#. module: iba_sale_v3
+#: selection:product.product,project:0
+msgid "Phoenix"
+msgstr ""
+
+#. module: iba_sale_v3
+#: field:product.product,type_appartement:0
+msgid "Type appartement"
+msgstr ""
+
+#. module: iba_sale_v3
+#: model:ir.model,name:iba_sale_v3.model_account_period
+msgid "Account period"
+msgstr ""
+
+#. module: iba_sale_v3
+#: view:res.partner:0
+msgid "Internal Notes"
+msgstr ""
+
+#. module: iba_sale_v3
+#: view:res.partner:0
+msgid "marital status"
+msgstr "Statut marital"
+
+#. module: iba_sale_v3
+#: model:res.groups,name:iba_sale_v3.group_purchase_service_conformite2
+msgid "Compliance Department"
+msgstr "Département Conformité"
+
+#. module: iba_sale_v3
+#: view:res.partner:0
+msgid "Address"
+msgstr ""
+
+#. module: iba_sale_v3
+#: view:res.partner:0
+msgid "Nationality"
+msgstr "Nationnalité"
+
+#. module: iba_sale_v3
+#: view:res.partner:0
+msgid "Phone:"
+msgstr "Téléphone"
+
+#. module: iba_sale_v3
+#: selection:product.product,status:0
+msgid "Lost"
+msgstr "Perdu"
+
+#. module: iba_sale_v3
+#: model:ir.model,name:iba_sale_v3.model_res_country
+#: view:res.partner:0
+msgid "Country"
+msgstr "Pays"
+
+#. module: iba_sale_v3
+#: selection:product.product,project:0
+msgid "Tej El Molk"
+msgstr ""
+
+#. module: iba_sale_v3
+#: model:ir.ui.menu,name:iba_sale_v3.menu_action_payment_term_form_sale
+msgid "Payment Terms"
+msgstr "Modalités de paiement"
+
+#. module: iba_sale_v3
+#: model:ir.model,name:iba_sale_v3.model_account_move
+msgid "Account Entry"
+msgstr ""
+
+#. module: iba_sale_v3
+#: selection:product.product,project:0
+msgid "Les Cascades"
+msgstr ""
+
+#. module: iba_sale_v3
+#: selection:res.partner,marital:0
+msgid "Single"
+msgstr ""
+
+#. module: iba_sale_v3
+#: selection:res.partner,marital:0
+msgid "Widower"
+msgstr ""
+
+#. module: iba_sale_v3
+#: selection:res.partner,marital:0
+msgid "Married under the separate property"
+msgstr "Marié(e0 sous le régime de la séparation des biens"
+
+#. module: iba_sale_v3
+#: selection:product.product,type_appartement:0
+msgid "Cellier"
+msgstr ""
+

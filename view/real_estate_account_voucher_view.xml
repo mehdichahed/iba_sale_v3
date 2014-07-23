@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+
+        <!-- edit account_prepayment -->
+        <record model="ir.ui.view" id="real_estate_view_vendor_prereceipt_form">
+            <field name="name">real.estate.account.voucher.prereceipt.form</field>
+            <field name="model">account.voucher</field>
+            <field name="inherit_id" ref="account_prepayment.view_vendor_prereceipt_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='use_prepayment_account']" position="replace">
+                </xpath>
+            </field>
+        </record>
+
+
+        <record model="ir.ui.view" id="iba-view_vendor_prepayment_form">
+            <field name="name">account.voucher.prepayment.form</field>
+            <field name="model">account.voucher</field>
+            <field name="inherit_id" ref="account_voucher.view_vendor_payment_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='partner_id']" position="before">
+                    <field name="use_prepayment_account" string="Prepayment"/>
+                    <field name="bon_commande_id" on_change="onchange_boncommande(bon_commande_id)"
+                           attrs="{'invisible': [('use_prepayment_account','=', False)]}"/>
+                </xpath>
+                <xpath expr="//field[@name='partner_id']" position="replace">
+                    <field name="partner_id" domain="[('customer','=',True)]" required="1"
+                           on_change="onchange_partner_id(partner_id, journal_id, amount, currency_id, type, date, context)"
+                           string="Customer" context="{'search_default_customer': 1}"/>
+                </xpath>
+            </field>
+        </record>
+
+
+        <record model="ir.ui.view" id="iba-view_vendor_prereceipt_form">
+            <field name="name">account.voucher.prereceipt.form</field>
+            <field name="model">account.voucher</field>
+            <field name="inherit_id" ref="account_voucher.view_vendor_receipt_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='partner_id']" position="before">
+                    <field name="use_prepayment_account"/>
+                    <field name="bon_commande_id" on_change="onchange_boncommande(bon_commande_id)"
+                           attrs="{'invisible': [('use_prepayment_account','=', False)]}"/>
+                </xpath>
+                <xpath expr="//field[@name='partner_id']" position="replace">
+                    <field name="partner_id" domain="[('customer','=',True)]" required="1"
+                           on_change="onchange_partner_id(partner_id, journal_id, amount, currency_id, type, date, context)"
+                           string="Customer" context="{'search_default_customer': 1}"/>
+                </xpath>
+            </field>
+        </record>
+
+
+        <!-- ajouter le menu payement Client au rubrique vente -->
+
+        <menuitem action="account_voucher.action_vendor_receipt" icon="STOCK_JUSTIFY_FILL" sequence="12"
+                  id="sale_menu_action_vendor_receipt" parent="base.menu_sales"/>
+
+    </data>
+</openerp>
+
+
+

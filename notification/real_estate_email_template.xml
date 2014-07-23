@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+
+        <!-- template du bien reservé -->
+        <record model="email.template" id="iba_mail_template_acc_voucher_reserved">
+            <field name="name">promised</field>
+            <field name="model_id"  ref='account_voucher.model_account_voucher'/>
+            <field name="subject">Mise a jour du statut de votre bien</field>
+            <field name="body_html"><![CDATA[
+                <p><em>Bonjour Mr   <strong>${object.partner_id.name}</strong>,  </em></p>
+                    <p><em>..... Changement du statut de votre bien :   Bien  <span style="color: #ff0000;"><strong>${object.bon_commande_id.order_line.product_id[0].name}</strong></span></em></p>
+                    <p><em>Ref de la vente : <span style="color: #3366ff;">${object.bon_commande_id.name}</span></em></p>
+                    <p><em>Etat actuelle du bien . </em><span style="color: #3366ff;"><em>${object.bon_commande_id.order_line[0].product_id.statut}</em></span></p>
+                    <p><em><br /></em></p>
+                    <p><em><br /></em></p>
+                    <p><em>Cordialement</em></p>
+                    <div><em><br /></em></div>
+            ]]></field>
+		</record>
+
+
+
+    </data>
+</openerp>
+
+
+

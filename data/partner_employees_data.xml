@@ -1,0 +1,1324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <!-- Deb : Ahmed makni  -->
+        <!-- partner -->
+        <record id="res_partner_Ahmed_makni" model="res.partner">
+            <field name="name">Ahmed makni</field>
+            <field eval="[(6, 0, [ref('res_partner_category_employee')])]" name="category_id"/>
+            <field eval="1" name="employee"/>
+            <field eval="0" name="customer"/>
+            <field eval="0" name="supplier"/>
+            <field eval="0" name="is_company"/>
+            <field name="zip">106</field>
+            <field name="country_id" ref="base.tn"/>
+            <field name="street">21- rue mosbeh jarboua – manar 3 - tunis</field>
+            <field name="phone">(+216) 21 066 066</field>
+            <field name="mobile">(+216) 00 000 000</field>
+            <field name="function">Gérant</field>
+        </record>
+        <!--RIB-->
+        <record id="rib_Ahmed_makni" model="res.partner.bank">
+            <field name="state">rib</field>
+            <field name="bank_code">01</field>
+            <field name="office">009</field>
+            <field name="rib_acc_number">0521110181209</field>
+            <field name="key">77</field>
+            <field name="partner_id" ref="res_partner_Ahmed_makni"/>
+
+
+        </record>
+
+        <!-- Maj du bank-->
+        <record id="res_partner_Ahmed_makni" model="res.partner">
+            <field name="bank_ids" eval="[(6, 0, [ref('rib_Ahmed_makni')])]"/>
+        </record>
+
+        <!-- employee -->
+        <record id="employee_Ahmed_makni" model="hr.employee">
+            <field name="name">Ahmed makni</field>
+            <field name="category_ids" eval="[(6, 0, [ref('employee_category')])]"/>
+            <field name="department_id" ref="department_technique"/>
+            <field name="country_id" ref="base.tn"/>
+            <field name="address_home_id" ref="res_partner_Ahmed_makni"/>
+
+            <field name="gender">male</field>
+            <field name="marital">married</field>
+            <field name="birthday">1978-02-07</field>
+            <field name="place_of_birth">Tunis</field>
+            <field name="address_id" ref="base.main_company"/>
+            <field name="children">2</field>
+            <field name="department_id" ref="department_administrative"/>
+            <field name="unqiue_number_to_the_employer" eval="1"/>
+            <field name="national_identity_number">08308256</field>
+            <field name="bank_account_id" ref="rib_Ahmed_makni"/>
+        </record>
+        <!--ressource -->
+
+        <record id="resource_Ahmed_makni" model="resource.resource">
+            <field name="name">Ahmed makni</field>
+            <field eval="1" name="active"/>
+            <field name="resource_type">user</field>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <!-- Fin : Ahmed makni -->
+
+        <!-- Deb : Makrém makni  -->
+        <!-- partner -->
+        <record id="res_partner_Makrem_makni" model="res.partner">
+            <field name="name">Makrém makni</field>
+            <field eval="[(6, 0, [ref('res_partner_category_employee')])]" name="category_id"/>
+            <field eval="1" name="employee"/>
+            <field eval="0" name="customer"/>
+            <field eval="0" name="supplier"/>
+            <field eval="0" name="is_company"/>
+            <field name="zip">106</field>
+            <field name="country_id" ref="base.tn"/>
+            <field name="street">12-rue essada – mégrine – ben arous</field>
+            <field name="phone">(+216) 27 459 959</field>
+            <field name="mobile">(+216) 23 816 167</field>
+            <field name="function">Assistant administratif</field>
+        </record>
+        <!--RIB-->
+        <record id="rib_Makrem_makni" model="res.partner.bank">
+            <field name="state">rib</field>
+            <field name="bank_code">17</field>
+            <field name="office">001</field>
+            <field name="rib_acc_number">0000001908187</field>
+            <field name="key">82</field>
+            <field name="partner_id" ref="res_partner_Makrem_makni"/>
+
+        </record>
+
+        <!-- Maj du bank-->
+        <record id="res_partner_Makrem_makni" model="res.partner">
+            <field name="bank_ids" eval="[(6, 0, [ref('rib_Makrem_makni')])]"/>
+        </record>
+
+        <!-- employee -->
+        <record id="employee_Makrem_makni" model="hr.employee">
+            <field name="name">Makrém makni</field>
+            <field name="category_ids" eval="[(6, 0, [ref('employee_category')])]"/>
+            <field name="department_id" ref="department_technique"/>
+            <field name="country_id" ref="base.tn"/>
+            <field name="address_home_id" ref="res_partner_Makrem_makni"/>
+
+            <field name="gender">male</field>
+            <field name="marital">married</field>
+            <field name="birthday">1986-02-06</field>
+            <field name="place_of_birth">Tunis</field>
+            <field name="address_id" ref="base.main_company"/>
+            <field name="children">0</field>
+            <field name="department_id" ref="department_technique"/>
+            <field name="unqiue_number_to_the_employer" eval="34"/>
+            <field name="national_identity_number">05461495</field>
+            <field name="bank_account_id" ref="rib_Makrem_makni"/>
+            <field model="hr.employee" name="parent_id" search="[('name','=', 'Ahmed makni')]"/>
+        </record>
+        <!--ressource -->
+
+        <record id="resource_Makrem_makni" model="resource.resource">
+            <field name="name">Makrém makni</field>
+            <field eval="1" name="active"/>
+            <field name="resource_type">user</field>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <!-- Fin : Makrém makni -->
+        <!-- Deb : Mohsen ayari  -->
+        <!-- partner -->
+        <record id="res_partner_Mohsen_ayari" model="res.partner">
+            <field name="name">Mohsen ayari</field>
+            <field eval="[(6, 0, [ref('res_partner_category_employee')])]" name="category_id"/>
+            <field eval="1" name="employee"/>
+            <field eval="0" name="customer"/>
+            <field eval="0" name="supplier"/>
+            <field eval="0" name="is_company"/>
+            <field name="zip">106</field>
+            <field name="country_id" ref="base.tn"/>
+            <field name="street">Rue bourguiba – bni khiar – nabeul</field>
+            <field name="phone">(+216) 28 339 301</field>
+            <field name="mobile">(+216) 0</field>
+            <field name="function">gardien</field>
+        </record>
+        <!--RIB-->
+        <record id="rib_Mohsen_ayari" model="res.partner.bank">
+            <field name="state">rib</field>
+            <field name="bank_code">07</field>
+            <field name="office">302</field>
+            <field name="rib_acc_number">0018121633148</field>
+            <field name="key">59</field>
+            <field name="partner_id" ref="res_partner_Mohsen_ayari"/>
+
+
+        </record>
+
+        <!-- Maj du bank-->
+        <record id="res_partner_Mohsen_ayari" model="res.partner">
+            <field name="bank_ids" eval="[(6, 0, [ref('rib_Mohsen_ayari')])]"/>
+        </record>
+
+        <!-- employee -->
+        <record id="employee_Mohsen_ayari" model="hr.employee">
+            <field name="name">Mohsen ayari</field>
+            <field name="category_ids" eval="[(6, 0, [ref('employee_category')])]"/>
+            <field name="department_id" ref="department_technique"/>
+            <field name="country_id" ref="base.tn"/>
+            <field name="address_home_id" ref="res_partner_Mohsen_ayari"/>
+
+            <field name="gender">male</field>
+            <field name="marital">married</field>
+            <field name="birthday">1956-06-16</field>
+            <field name="place_of_birth">Bni aichoun</field>
+            <field name="address_id" ref="base.main_company"/>
+            <field name="children">2</field>
+            <field name="department_id" ref="department_syndic"/>
+            <field name="unqiue_number_to_the_employer" eval="61"/>
+            <field name="national_identity_number">01654401</field>
+            <field name="bank_account_id" ref="rib_Mohsen_ayari"/>
+            <field model="hr.employee" name="parent_id" search="[('name','=', 'Ahmed makni')]"/>
+        </record>
+        <!--ressource -->
+
+        <record id="resource_Mohsen_ayari" model="resource.resource">
+            <field name="name">Mohsen ayari</field>
+            <field eval="1" name="active"/>
+            <field name="resource_type">user</field>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <!-- Fin : Mohsen ayari -->
+        <!-- Deb : Mohamed ajléni  -->
+        <!-- partner -->
+        <record id="res_partner_Mohamed_ajleni" model="res.partner">
+            <field name="name">Mohamed ajléni</field>
+            <field eval="[(6, 0, [ref('res_partner_category_employee')])]" name="category_id"/>
+            <field eval="1" name="employee"/>
+            <field eval="0" name="customer"/>
+            <field eval="0" name="supplier"/>
+            <field eval="0" name="is_company"/>
+            <field name="zip">106</field>
+            <field name="country_id" ref="base.tn"/>
+            <field name="street">Errek charki – fériana - gasserine</field>
+            <field name="phone">(+216) 28 339 301</field>
+            <field name="mobile">(+216) 0</field>
+            <field name="function">gardien</field>
+        </record>
+        <!--RIB-->
+        <record id="rib_Mohamed_ajleni" model="res.partner.bank">
+            <field name="state">rib</field>
+            <field name="bank_code">17</field>
+            <field name="office">606</field>
+            <field name="rib_acc_number">0000001049548</field>
+            <field name="key">02</field>
+            <field name="partner_id" ref="res_partner_Mohamed_ajleni"/>
+        </record>
+
+        <!-- Maj du bank-->
+        <record id="res_partner_Mohamed_ajleni" model="res.partner">
+            <field name="bank_ids" eval="[(6, 0, [ref('rib_Mohamed_ajleni')])]"/>
+        </record>
+
+        <!-- employee -->
+        <record id="employee_Mohamed_ajleni" model="hr.employee">
+            <field name="name">Mohamed ajléni</field>
+            <field name="category_ids" eval="[(6, 0, [ref('employee_category')])]"/>
+            <field name="department_id" ref="department_technique"/>
+            <field name="country_id" ref="base.tn"/>
+            <field name="address_home_id" ref="res_partner_Mohamed_ajleni"/>
+
+            <field name="gender">male</field>
+            <field name="marital">married</field>
+            <field name="birthday">1976-12-25</field>
+            <field name="place_of_birth">Fériana</field>
+            <field name="address_id" ref="base.main_company"/>
+            <field name="children">1</field>
+            <field name="department_id" ref="department_syndic"/>
+            <field name="unqiue_number_to_the_employer" eval="64"/>
+            <field name="national_identity_number">08204205</field>
+            <field name="bank_account_id" ref="rib_Mohamed_ajleni"/>
+            <field model="hr.employee" name="parent_id" search="[('name','=', 'Ahmed makni')]"/>
+        </record>
+        <!--ressource -->
+
+        <record id="resource_Mohamed_ajleni" model="resource.resource">
+            <field name="name">Mohamed ajléni</field>
+            <field eval="1" name="active"/>
+            <field name="resource_type">user</field>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <!-- Fin : Mohamed ajléni -->
+        <!-- Deb : Habib garfa  -->
+        <!-- partner -->
+        <record id="res_partner_Habib_garfa" model="res.partner">
+            <field name="name">Habib garfa</field>
+            <field eval="[(6, 0, [ref('res_partner_category_employee')])]" name="category_id"/>
+            <field eval="1" name="employee"/>
+            <field eval="0" name="customer"/>
+            <field eval="0" name="supplier"/>
+            <field eval="0" name="is_company"/>
+            
+            <field name="zip">106</field>
+            <field name="country_id" ref="base.tn"/>
+            <field name="street">Rue 10201 – n=°18 – ouardia 2 - tunis</field>
+            <field name="phone">(+216) 28 339 300</field>
+            <field name="mobile">(+216) 0</field>
+            <field name="function">chauffeur</field>
+        </record>
+
+
+        <!-- employee -->
+        <record id="employee_Habib_garfa" model="hr.employee">
+            <field name="name">Habib garfa</field>
+            <field name="category_ids" eval="[(6, 0, [ref('employee_category')])]"/>
+            <field name="department_id" ref="department_technique"/>
+            <field name="country_id" ref="base.tn"/>
+            <field name="address_home_id" ref="res_partner_Habib_garfa"/>
+
+            <field name="gender">male</field>
+            <field name="marital">married</field>
+            <field name="birthday">1960-08-03</field>
+            <field name="place_of_birth">Tunis</field>
+            <field name="address_id" ref="base.main_company"/>
+            <field name="children">0</field>
+            <field name="department_id" ref="department_administrative"/>
+            <field name="unqiue_number_to_the_employer" eval="3"/>
+            <field name="national_identity_number">00240655</field>
+            <field model="hr.employee" name="parent_id" search="[('name','=', 'Ahmed makni')]"/>
+        </record>
+        <!--ressource -->
+
+        <record id="resource_Habib_garfa" model="resource.resource">
+            <field name="name">Habib garfa</field>
+            <field eval="1" name="active"/>
+            <field name="resource_type">user</field>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <!-- Fin : Habib garfa -->
+        <!-- Deb : Khaled rhouma  -->
+        <!-- partner -->
+        <record id="res_partner_Khaled_rhouma" model="res.partner">
+            <field name="name">Khaled rhouma</field>
+            <field eval="[(6, 0, [ref('res_partner_category_employee')])]" name="category_id"/>
+            <field eval="1" name="employee"/>
+            <field eval="0" name="customer"/>
+            <field eval="0" name="supplier"/>
+            <field eval="0" name="is_company"/>
+            <field name="zip">106</field>
+            <field name="country_id" ref="base.tn"/>
+            <field name="street"></field>
+            <field name="phone">(+216) 25 339 664</field>
+            <field name="mobile">(+216) 0</field>
+            <field name="function">Directeur général</field>
+        </record>
+        <!--RIB-->
+        <record id="rib_Khaled_rhouma" model="res.partner.bank">
+            <field name="state">rib</field>
+            <field name="bank_code">03</field>
+            <field name="office">135</field>
+            <field name="rib_acc_number">1200101001793</field>
+            <field name="key">94</field>
+            <field name="partner_id" ref="res_partner_Khaled_rhouma"/>
+
+
+        </record>
+
+        <!-- Maj du bank-->
+        <record id="res_partner_Khaled_rhouma" model="res.partner">
+            <field name="bank_ids" eval="[(6, 0, [ref('rib_Khaled_rhouma')])]"/>
+        </record>
+
+        <!-- employee -->
+        <record id="employee_Khaled_rhouma" model="hr.employee">
+            <field name="name">Khaled rhouma</field>
+            <field name="category_ids" eval="[(6, 0, [ref('employee_category')])]"/>
+            <field name="department_id" ref="department_technique"/>
+            <field name="country_id" ref="base.tn"/>
+            <field name="address_home_id" ref="res_partner_Khaled_rhouma"/>
+
+            <field name="gender">male</field>
+            <field name="marital">married</field>
+            <field name="birthday">1964-01-21</field>
+            <field name="place_of_birth">Tunis</field>
+            <field name="address_id" ref="base.main_company"/>
+            <field name="children">0</field>
+            <field name="department_id" ref="department_administrative"/>
+            <field name="unqiue_number_to_the_employer" eval="2"/>
+            <field name="national_identity_number">05533100</field>
+            <field name="bank_account_id" ref="rib_Khaled_rhouma"/>
+            <field model="hr.employee" name="parent_id" search="[('name','=', 'Ahmed makni')]"/>
+        </record>
+        <!--ressource -->
+
+        <record id="resource_Khaled_rhouma" model="resource.resource">
+            <field name="name">Khaled rhouma</field>
+            <field eval="1" name="active"/>
+            <field name="resource_type">user</field>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <!-- Fin : Khaled rhouma -->
+        <!-- Deb : Farhouda daoudi  -->
+        <!-- partner -->
+        <record id="res_partner_Farhouda_daoudi" model="res.partner">
+            <field name="name">Farhouda daoudi</field>
+            <field eval="[(6, 0, [ref('res_partner_category_employee')])]" name="category_id"/>
+            <field eval="1" name="employee"/>
+            <field eval="0" name="customer"/>
+            <field eval="0" name="supplier"/>
+            <field eval="0" name="is_company"/>
+            <field name="zip">106</field>
+            <field name="country_id" ref="base.tn"/>
+            <field name="street">Mansoura-sud – kesra - séliana</field>
+            <field name="phone">(+216) 28 339 301</field>
+            <field name="mobile">(+216) 25 689 367</field>
+            <field name="function">Femme de ménage</field>
+        </record>
+        <!--RIB-->
+        <record id="rib_Farhouda_daoudi" model="res.partner.bank">
+            <field name="state">rib</field>
+            <field name="bank_code">17</field>
+            <field name="office">002</field>
+            <field name="rib_acc_number">0000002028819</field>
+            <field name="key">48</field>
+            <field name="partner_id" ref="res_partner_Farhouda_daoudi"/>
+
+        </record>
+
+        <!-- Maj du bank-->
+        <record id="res_partner_Farhouda_daoudi" model="res.partner">
+            <field name="bank_ids" eval="[(6, 0, [ref('rib_Farhouda_daoudi')])]"/>
+        </record>
+
+        <!-- employee -->
+        <record id="employee_Farhouda_daoudi" model="hr.employee">
+            <field name="name">Farhouda daoudi</field>
+            <field name="category_ids" eval="[(6, 0, [ref('employee_category')])]"/>
+            <field name="department_id" ref="department_technique"/>
+            <field name="country_id" ref="base.tn"/>
+            <field name="address_home_id" ref="res_partner_Farhouda_daoudi"/>
+
+            <field name="gender">male</field>
+            <field name="marital">divorced</field>
+            <field name="birthday">1977-10-16</field>
+            <field name="place_of_birth">Mansoura-sud</field>
+            <field name="address_id" ref="base.main_company"/>
+            <field name="children">0</field>
+            <field name="department_id" ref="department_syndic"/>
+            <field name="unqiue_number_to_the_employer" eval="25"/>
+            <field name="national_identity_number">04543615</field>
+            <field name="bank_account_id" ref="rib_Farhouda_daoudi"/>
+            <field model="hr.employee" name="parent_id" search="[('name','=', 'Ahmed makni')]"/>
+        </record>
+        <!--ressource -->
+
+        <record id="resource_Farhouda_daoudi" model="resource.resource">
+            <field name="name">Farhouda daoudi</field>
+            <field eval="1" name="active"/>
+            <field name="resource_type">user</field>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <!-- Fin : Farhouda daoudi -->
+        <!-- Deb : Mariém jarraya  -->
+        <!-- partner -->
+        <record id="res_partner_Mariem_jarraya" model="res.partner">
+            <field name="name">Mariém jarraya</field>
+            <field eval="[(6, 0, [ref('res_partner_category_employee')])]" name="category_id"/>
+            <field eval="1" name="employee"/>
+            <field eval="0" name="customer"/>
+            <field eval="0" name="supplier"/>
+            <field eval="0" name="is_company"/>
+            <field name="zip">106</field>
+            <field name="country_id" ref="base.tn"/>
+            <field name="street">21- rue mosbeh jarboua – manar 3 - tunis</field>
+            <field name="phone">(+216) 21 066 066</field>
+            <field name="mobile">(+216) 0</field>
+            <field name="function">Directeur marketing</field>
+        </record>
+
+
+        <!-- employee -->
+        <record id="employee_Mariem_jarraya" model="hr.employee">
+            <field name="name">Mariém jarraya</field>
+            <field name="category_ids" eval="[(6, 0, [ref('employee_category')])]"/>
+            <field name="department_id" ref="department_technique"/>
+            <field name="country_id" ref="base.tn"/>
+            <field name="address_home_id" ref="res_partner_Mariem_jarraya"/>
+
+            <field name="gender">female</field>
+            <field name="marital">married</field>
+            <field name="birthday">1984-08-15</field>
+            <field name="place_of_birth">Sfax</field>
+            <field name="address_id" ref="base.main_company"/>
+            <field name="children">2</field>
+            <field name="department_id" ref="department_administrative"/>
+            <field name="unqiue_number_to_the_employer" eval="4"/>
+            <field name="national_identity_number">08761939</field>
+            <field model="hr.employee" name="parent_id" search="[('name','=', 'Ahmed makni')]"/>
+        </record>
+        <!--ressource -->
+
+        <record id="resource_Mariem_jarraya" model="resource.resource">
+            <field name="name">Mariém jarraya</field>
+            <field eval="1" name="active"/>
+            <field name="resource_type">user</field>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <!-- Fin : Mariém jarraya -->
+        <!-- Deb : hichém makni  -->
+        <!-- partner -->
+        <record id="res_partner_hichem_makni" model="res.partner">
+            <field name="name">hichém makni</field>
+            <field eval="[(6, 0, [ref('res_partner_category_employee')])]" name="category_id"/>
+            <field eval="1" name="employee"/>
+            <field eval="0" name="customer"/>
+            <field eval="0" name="supplier"/>
+            <field eval="0" name="is_company"/>
+            <field name="zip">106</field>
+            <field name="country_id" ref="base.tn"/>
+            <field name="street">21- rue mosbeh jarboua – manar 3 - tunis</field>
+            <field name="phone">(+216) 23 036 036</field>
+            <field name="mobile">(+216) 0</field>
+            <field name="function">Attaché de direction</field>
+        </record>
+        <!--RIB-->
+        <record id="rib_hichem_makni" model="res.partner.bank">
+            <field name="state">rib</field>
+            <field name="bank_code">01</field>
+            <field name="office">009</field>
+            <field name="rib_acc_number">0521110042173</field>
+            <field name="key">85</field>
+            <field name="partner_id" ref="res_partner_hichem_makni"/>
+
+        </record>
+
+        <!-- Maj du bank-->
+        <record id="res_partner_hichem_makni" model="res.partner">
+            <field name="bank_ids" eval="[(6, 0, [ref('rib_hichem_makni')])]"/>
+        </record>
+
+        <!-- employee -->
+        <record id="employee_hichem_makni" model="hr.employee">
+            <field name="name">hichém makni</field>
+            <field name="category_ids" eval="[(6, 0, [ref('employee_category')])]"/>
+            <field name="department_id" ref="department_technique"/>
+            <field name="country_id" ref="base.tn"/>
+            <field name="address_home_id" ref="res_partner_hichem_makni"/>
+
+            <field name="gender">male</field>
+            <field name="marital">single</field>
+            <field name="birthday">1983-03-11</field>
+            <field name="place_of_birth">Tunis</field>
+            <field name="address_id" ref="base.main_company"/>
+            <field name="children">0</field>
+            <field name="department_id" ref="department_technique"/>
+            <field name="unqiue_number_to_the_employer" eval="43"/>
+            <field name="national_identity_number">08329717</field>
+            <field name="bank_account_id" ref="rib_hichem_makni"/>
+            <field model="hr.employee" name="parent_id" search="[('name','=', 'Ahmed makni')]"/>
+        </record>
+        <!--ressource -->
+
+        <record id="resource_hichem_makni" model="resource.resource">
+            <field name="name">hichém makni</field>
+            <field eval="1" name="active"/>
+            <field name="resource_type">user</field>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <!-- Fin : hichém makni -->
+        <!-- Deb : Mohamed mahdi badrane  -->
+        <!-- partner -->
+        <record id="res_partner_Mohamed_mahdi_badrane" model="res.partner">
+            <field name="name">Mohamed mahdi badrane</field>
+            <field eval="[(6, 0, [ref('res_partner_category_employee')])]" name="category_id"/>
+            <field eval="1" name="employee"/>
+            <field eval="0" name="customer"/>
+            <field eval="0" name="supplier"/>
+            <field eval="0" name="is_company"/>
+            <field name="zip">106</field>
+            <field name="country_id" ref="base.tn"/>
+            <field name="street">5- rue de kef – bardo - tunis</field>
+            <field name="phone">(+216) 28 339 303</field>
+            <field name="mobile">(+216) 0</field>
+            <field name="function">Pilote de chantier</field>
+        </record>
+        <!--RIB-->
+        <record id="rib_Mohamed_mahdi_badrane" model="res.partner.bank">
+            <field name="state">rib</field>
+            <field name="bank_code">01</field>
+            <field name="office">036</field>
+            <field name="rib_acc_number">0811110010064</field>
+            <field name="key">45</field>
+            <field name="partner_id" ref="res_partner_Mohamed_mahdi_badrane"/>
+
+        </record>
+
+        <!-- Maj du bank-->
+        <record id="res_partner_Mohamed_mahdi_badrane" model="res.partner">
+            <field name="bank_ids" eval="[(6, 0, [ref('rib_Mohamed_mahdi_badrane')])]"/>
+        </record>
+
+        <!-- employee -->
+        <record id="employee_Mohamed_mahdi_badrane" model="hr.employee">
+            <field name="name">Mohamed mahdi badrane</field>
+            <field name="category_ids" eval="[(6, 0, [ref('employee_category')])]"/>
+            <field name="department_id" ref="department_technique"/>
+            <field name="country_id" ref="base.tn"/>
+            <field name="address_home_id" ref="res_partner_Mohamed_mahdi_badrane"/>
+
+            <field name="gender">male</field>
+            <field name="marital">married</field>
+            <field name="birthday">1983-08-03</field>
+            <field name="place_of_birth">Tunis</field>
+            <field name="address_id" ref="base.main_company"/>
+            <field name="children">0</field>
+            <field name="department_id" ref="department_technique"/>
+            <field name="unqiue_number_to_the_employer" eval="45"/>
+            <field name="national_identity_number">08701984</field>
+            <field name="bank_account_id" ref="rib_Mohamed_mahdi_badrane"/>
+            <field model="hr.employee" name="parent_id" search="[('name','=', 'Ahmed makni')]"/>
+        </record>
+        <!--ressource -->
+
+        <record id="resource_Mohamed_mahdi_badrane" model="resource.resource">
+            <field name="name">Mohamed mahdi badrane</field>
+            <field eval="1" name="active"/>
+            <field name="resource_type">user</field>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <!-- Fin : Mohamed mahdi badrane -->
+        <!-- Deb : Mbarka abed  -->
+        <!-- partner -->
+        <record id="res_partner_Mbarka_abed" model="res.partner">
+            <field name="name">Mbarka abed</field>
+            <field eval="[(6, 0, [ref('res_partner_category_employee')])]" name="category_id"/>
+            <field eval="1" name="employee"/>
+            <field eval="0" name="customer"/>
+            <field eval="0" name="supplier"/>
+            <field eval="0" name="is_company"/>
+            <field name="zip">106</field>
+            <field name="country_id" ref="base.tn"/>
+            <field name="street">Cité nassim - bni khiar – nabeul</field>
+            <field name="phone">(+216) 28 339 301</field>
+            <field name="mobile">(+216) 94 134 142</field>
+            <field name="function">Femme de ménage</field>
+        </record>
+        <!--RIB-->
+        <record id="rib_Mbarka_abed" model="res.partner.bank">
+            <field name="state">rib</field>
+            <field name="bank_code">17</field>
+            <field name="office">002</field>
+            <field name="rib_acc_number">0000002028270</field>
+            <field name="key">46</field>
+            <field name="partner_id" ref="res_partner_Mbarka_abed"/>
+
+        </record>
+
+        <!-- Maj du bank-->
+        <record id="res_partner_Mbarka_abed" model="res.partner">
+            <field name="bank_ids" eval="[(6, 0, [ref('rib_Mbarka_abed')])]"/>
+        </record>
+
+        <!-- employee -->
+        <record id="employee_Mbarka_abed" model="hr.employee">
+            <field name="name">Mbarka abed</field>
+            <field name="category_ids" eval="[(6, 0, [ref('employee_category')])]"/>
+            <field name="department_id" ref="department_technique"/>
+            <field name="country_id" ref="base.tn"/>
+            <field name="address_home_id" ref="res_partner_Mbarka_abed"/>
+
+            <field name="gender">female</field>
+            <field name="marital">married</field>
+            <field name="birthday">1977-09-24</field>
+            <field name="place_of_birth">Mansoura</field>
+            <field name="address_id" ref="base.main_company"/>
+            <field name="children">2</field>
+            <field name="department_id" ref="department_syndic"/>
+            <field name="unqiue_number_to_the_employer" eval="19"/>
+            <field name="national_identity_number">06448045</field>
+            <field name="bank_account_id" ref="rib_Mbarka_abed"/>
+            <field model="hr.employee" name="parent_id" search="[('name','=', 'Ahmed makni')]"/>
+        </record>
+        <!--ressource -->
+
+        <record id="resource_Mbarka_abed" model="resource.resource">
+            <field name="name">Mbarka abed</field>
+            <field eval="1" name="active"/>
+            <field name="resource_type">user</field>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <!-- Fin : Mbarka abed -->
+        <!-- Deb : Hanéne mghirbi  -->
+        <!-- partner -->
+        <record id="res_partner_Hanene_mghirbi" model="res.partner">
+            <field name="name">Hanéne mghirbi</field>
+            <field eval="[(6, 0, [ref('res_partner_category_employee')])]" name="category_id"/>
+            <field eval="1" name="employee"/>
+            <field eval="0" name="customer"/>
+            <field eval="0" name="supplier"/>
+            <field eval="0" name="is_company"/>
+            <field name="zip">106</field>
+            <field name="country_id" ref="base.tn"/>
+            <field name="street">Rue cheikh mghirbi - bni khiar – nabeul</field>
+            <field name="phone">(+216) 28 339 301</field>
+            <field name="mobile">(+216) 0</field>
+            <field name="function">Agent commercial</field>
+        </record>
+        <!--RIB-->
+        <record id="rib_Hanene_mghirbi" model="res.partner.bank">
+            <field name="state">rib</field>
+            <field name="bank_code">03</field>
+            <field name="office">707</field>
+            <field name="rib_acc_number">0040121040404</field>
+            <field name="key">53</field>
+            <field name="partner_id" ref="res_partner_Hanene_mghirbi"/>
+
+        </record>
+
+        <!-- Maj du bank-->
+        <record id="res_partner_Hanene_mghirbi" model="res.partner">
+            <field name="bank_ids" eval="[(6, 0, [ref('rib_Hanene_mghirbi')])]"/>
+        </record>
+
+        <!-- employee -->
+        <record id="employee_Hanene_mghirbi" model="hr.employee">
+            <field name="name">Hanéne mghirbi</field>
+            <field name="category_ids" eval="[(6, 0, [ref('employee_category')])]"/>
+            <field name="department_id" ref="department_technique"/>
+            <field name="country_id" ref="base.tn"/>
+            <field name="address_home_id" ref="res_partner_Hanene_mghirbi"/>
+
+            <field name="gender">female</field>
+            <field name="marital">single</field>
+            <field name="birthday">1977-08-10/</field>
+            <field name="place_of_birth">Allemagne</field>
+            <field name="address_id" ref="base.main_company"/>
+            <field name="children">0</field>
+            <field name="department_id" ref="department_commercial"/>
+            <field name="unqiue_number_to_the_employer" eval="22"/>
+            <field name="national_identity_number">06343974</field>
+            <field name="bank_account_id" ref="rib_Hanene_mghirbi"/>
+            <field model="hr.employee" name="parent_id" search="[('name','=', 'Ahmed makni')]"/>
+        </record>
+        <!--ressource -->
+
+        <record id="resource_Hanene_mghirbi" model="resource.resource">
+            <field name="name">Hanéne mghirbi</field>
+            <field eval="1" name="active"/>
+            <field name="resource_type">user</field>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <!-- Fin : Hanéne mghirbi -->
+        <!-- Deb : Jameldine ben massoued  -->
+        <!-- partner -->
+        <record id="res_partner_Jameldine_ben_massoued" model="res.partner">
+            <field name="name">Jameldine ben massoued</field>
+            <field eval="[(6, 0, [ref('res_partner_category_employee')])]" name="category_id"/>
+            <field eval="1" name="employee"/>
+            <field eval="0" name="customer"/>
+            <field eval="0" name="supplier"/>
+            <field eval="0" name="is_company"/>
+            <field name="zip">106</field>
+            <field name="country_id" ref="base.tn"/>
+            <field name="street">5- rue hssan marakchi – mourouj 5</field>
+            <field name="phone">(+216) 28 339 306</field>
+            <field name="mobile">(+216) 0</field>
+            <field name="function">Electricien</field>
+        </record>
+        <!--RIB-->
+        <record id="rib_Jameldine_ben_massoued" model="res.partner.bank">
+            <field name="state">rib</field>
+            <field name="bank_code">03</field>
+            <field name="office">707</field>
+            <field name="rib_acc_number">0040121040404</field>
+            <field name="key">53</field>
+            <field name="partner_id" ref="res_partner_Jameldine_ben_massoued"/>
+
+        </record>
+
+        <!-- Maj du bank-->
+        <record id="res_partner_Jameldine_ben_massoued" model="res.partner">
+            <field name="bank_ids" eval="[(6, 0, [ref('rib_Jameldine_ben_massoued')])]"/>
+        </record>
+
+        <!-- employee -->
+        <record id="employee_Jameldine_ben_massoued" model="hr.employee">
+            <field name="name">Jameldine ben massoued</field>
+            <field name="category_ids" eval="[(6, 0, [ref('employee_category')])]"/>
+            <field name="department_id" ref="department_technique"/>
+            <field name="country_id" ref="base.tn"/>
+            <field name="address_home_id" ref="res_partner_Jameldine_ben_massoued"/>
+
+            <field name="gender">male</field>
+            <field name="marital">married</field>
+            <field name="birthday">1962-01-03</field>
+            <field name="place_of_birth">Sfax</field>
+            <field name="address_id" ref="base.main_company"/>
+            <field name="children">2</field>
+            <field name="department_id" ref="department_administrative"/>
+            <field name="unqiue_number_to_the_employer" eval="479"/>
+            <field name="national_identity_number">01272044</field>
+            <field name="bank_account_id" ref="rib_Jameldine_ben_massoued"/>
+            <field model="res.partner" name="parent_id" search="[('name','=', 'Habib makni')]"/>
+        </record>
+        <!--ressource -->
+
+        <record id="resource_Jameldine_ben_massoued" model="resource.resource">
+            <field name="name">Jameldine ben massoued</field>
+            <field eval="1" name="active"/>
+            <field name="resource_type">user</field>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <!-- Fin : Jameldine ben massoued -->
+        <!-- Deb : Faouzi tounsi  -->
+        <!-- partner -->
+        <record id="res_partner_Faouzi_tounsi" model="res.partner">
+            <field name="name">Faouzi tounsi</field>
+            <field eval="[(6, 0, [ref('res_partner_category_employee')])]" name="category_id"/>
+            <field eval="1" name="employee"/>
+            <field eval="0" name="customer"/>
+            <field eval="0" name="supplier"/>
+            <field eval="0" name="is_company"/>
+            <field name="zip">106</field>
+            <field name="country_id" ref="base.tn"/>
+            <field name="street">10- rue omrane – cité mansoura - ariana</field>
+            <field name="phone">(+216) 25 252 335</field>
+            <field name="mobile">(+216) 0</field>
+            <field name="function">Surveillant</field>
+        </record>
+        <!--RIB-->
+        <record id="rib_Faouzi_tounsi" model="res.partner.bank">
+            <field name="state">rib</field>
+            <field name="bank_code">04</field>
+            <field name="office">066</field>
+            <field name="rib_acc_number">1510006026173</field>
+            <field name="key">38</field>
+            <field name="partner_id" ref="res_partner_Faouzi_tounsi"/>
+
+        </record>
+
+        <!-- Maj du bank-->
+        <record id="res_partner_Faouzi_tounsi" model="res.partner">
+            <field name="bank_ids" eval="[(6, 0, [ref('rib_Faouzi_tounsi')])]"/>
+        </record>
+
+        <!-- employee -->
+        <record id="employee_Faouzi_tounsi" model="hr.employee">
+            <field name="name">Faouzi tounsi</field>
+            <field name="category_ids" eval="[(6, 0, [ref('employee_category')])]"/>
+            <field name="department_id" ref="department_technique"/>
+            <field name="country_id" ref="base.tn"/>
+            <field name="address_home_id" ref="res_partner_Faouzi_tounsi"/>
+
+            <field name="gender">male</field>
+            <field name="marital">married</field>
+            <field name="birthday">1960-7-04</field>
+            <field name="place_of_birth">Tunis</field>
+            <field name="address_id" ref="base.main_company"/>
+            <field name="children">2</field>
+            <field name="department_id" ref="department_administrative"/>
+            <field name="unqiue_number_to_the_employer" eval="409"/>
+            <field name="national_identity_number">00216137</field>
+            <field name="bank_account_id" ref="rib_Faouzi_tounsi"/>
+            <field model="res.partner" name="parent_id" search="[('name','=', 'Habib makni')]"/>
+        </record>
+        <!--ressource -->
+
+        <record id="resource_Faouzi_tounsi" model="resource.resource">
+            <field name="name">Faouzi tounsi</field>
+            <field eval="1" name="active"/>
+            <field name="resource_type">user</field>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <!-- Fin : Faouzi tounsi -->
+        <!-- Deb : Abderaouf chikhi  -->
+        <!-- partner -->
+        <record id="res_partner_Abderaouf_chikhi" model="res.partner">
+            <field name="name">Abderaouf chikhi</field>
+            <field eval="[(6, 0, [ref('res_partner_category_employee')])]" name="category_id"/>
+            <field eval="1" name="employee"/>
+            <field eval="0" name="customer"/>
+            <field eval="0" name="supplier"/>
+            <field eval="0" name="is_company"/>
+            <field name="zip">106</field>
+            <field name="country_id" ref="base.tn"/>
+            <field name="street">30- rue 20 mars – kram</field>
+            <field name="phone">(+216) 28 339 304</field>
+            <field name="mobile">(+216) 0</field>
+            <field name="function">Chef service</field>
+        </record>
+        <!--RIB-->
+        <record id="rib_Abderaouf_chikhi" model="res.partner.bank">
+            <field name="state">rib</field>
+            <field name="bank_code">07</field>
+            <field name="office">001</field>
+            <field name="rib_acc_number">0001105552735</field>
+            <field name="key">47</field>
+            <field name="partner_id" ref="res_partner_Abderaouf_chikhi"/>
+
+        </record>
+
+        <!-- Maj du bank-->
+        <record id="res_partner_Abderaouf_chikhi" model="res.partner">
+            <field name="bank_ids" eval="[(6, 0, [ref('rib_Abderaouf_chikhi')])]"/>
+        </record>
+
+        <!-- employee -->
+        <record id="employee_Abderaouf_chikhi" model="hr.employee">
+            <field name="name">Abderaouf chikhi</field>
+            <field name="category_ids" eval="[(6, 0, [ref('employee_category')])]"/>
+            <field name="department_id" ref="department_technique"/>
+            <field name="country_id" ref="base.tn"/>
+            <field name="address_home_id" ref="res_partner_Abderaouf_chikhi"/>
+
+            <field name="gender">male</field>
+            <field name="marital">married</field>
+            <field name="birthday">1964-03-02</field>
+            <field name="place_of_birth">Tozeur</field>
+            <field name="address_id" ref="base.main_company"/>
+            <field name="children">3</field>
+            <field name="department_id" ref="department_administrative"/>
+            <field name="unqiue_number_to_the_employer" eval="405"/>
+            <field name="national_identity_number">03134889</field>
+            <field name="bank_account_id" ref="rib_Abderaouf_chikhi"/>
+            <field model="res.partner" name="parent_id" search="[('name','=', 'Habib makni')]"/>
+        </record>
+        <!--ressource -->
+
+        <record id="resource_Abderaouf_chikhi" model="resource.resource">
+            <field name="name">Abderaouf chikhi</field>
+            <field eval="1" name="active"/>
+            <field name="resource_type">user</field>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <!-- Fin : Abderaouf chikhi -->
+        <!-- Deb : Riath ktari  -->
+        <!-- partner -->
+        <record id="res_partner_Riath_ktari" model="res.partner">
+            <field name="name">Riath ktari</field>
+            <field eval="[(6, 0, [ref('res_partner_category_employee')])]" name="category_id"/>
+            <field eval="1" name="employee"/>
+            <field eval="0" name="customer"/>
+            <field eval="0" name="supplier"/>
+            <field eval="0" name="is_company"/>
+            <field name="zip">106</field>
+            <field name="country_id" ref="base.tn"/>
+            <field name="street">Résidence bochra – cité des oasis – aouina - tunis</field>
+            <field name="phone">(+216) 25 252 332</field>
+            <field name="mobile">(+216) 0</field>
+            <field name="function">Directeur</field>
+        </record>
+        <!--RIB-->
+        <record id="rib_Riath_ktari" model="res.partner.bank">
+            <field name="state">rib</field>
+            <field name="bank_code">11</field>
+            <field name="office">008</field>
+            <field name="rib_acc_number">0023875013788</field>
+            <field name="key">88</field>
+            <field name="partner_id" ref="res_partner_Riath_ktari"/>
+
+        </record>
+
+        <!-- Maj du bank-->
+        <record id="res_partner_Riath_ktari" model="res.partner">
+            <field name="bank_ids" eval="[(6, 0, [ref('rib_Riath_ktari')])]"/>
+        </record>
+
+        <!-- employee -->
+        <record id="employee_Riath_ktari" model="hr.employee">
+            <field name="name">Riath ktari</field>
+            <field name="category_ids" eval="[(6, 0, [ref('employee_category')])]"/>
+            <field name="department_id" ref="department_technique"/>
+            <field name="country_id" ref="base.tn"/>
+            <field name="address_home_id" ref="res_partner_Riath_ktari"/>
+
+            <field name="gender">male</field>
+            <field name="marital">married</field>
+            <field name="birthday">1972-03-20</field>
+            <field name="place_of_birth">Sfax</field>
+            <field name="address_id" ref="base.main_company"/>
+            <field name="children">1</field>
+            <field name="department_id" ref="department_administrative"/>
+            <field name="unqiue_number_to_the_employer" eval="625"/>
+            <field name="national_identity_number">05290647</field>
+            <field name="bank_account_id" ref="rib_Riath_ktari"/>
+            <field model="res.partner" name="parent_id" search="[('name','=', 'Habib makni')]"/>
+        </record>
+        <!--ressource -->
+
+        <record id="resource_Riath_ktari" model="resource.resource">
+            <field name="name">Riath ktari</field>
+            <field eval="1" name="active"/>
+            <field name="resource_type">user</field>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <!-- Fin : Riath ktari -->
+        <!-- Deb : Méjéd laabidi  -->
+        <!-- partner -->
+        <record id="res_partner_Mejed_laabidi" model="res.partner">
+            <field name="name">Méjéd laabidi</field>
+            <field eval="[(6, 0, [ref('res_partner_category_employee')])]" name="category_id"/>
+            <field eval="1" name="employee"/>
+            <field eval="0" name="customer"/>
+            <field eval="0" name="supplier"/>
+            <field eval="0" name="is_company"/>
+            <field name="zip">106</field>
+            <field name="country_id" ref="base.tn"/>
+            <field name="street">Centre claridge – habib bourguiba - tunis</field>
+            <field name="phone">(+216) 25 252 335</field>
+            <field name="mobile">(+216) 21 845 475</field>
+            <field name="function">Surveillant</field>
+        </record>
+
+        <!-- employee -->
+        <record id="employee_Mejed_laabidi" model="hr.employee">
+            <field name="name">Méjéd laabidi</field>
+            <field name="category_ids" eval="[(6, 0, [ref('employee_category')])]"/>
+            <field name="department_id" ref="department_technique"/>
+            <field name="country_id" ref="base.tn"/>
+            <field name="address_home_id" ref="res_partner_Mejed_laabidi"/>
+
+            <field name="gender">male</field>
+            <field name="marital">single</field>
+            <field name="birthday">1987-05-26</field>
+            <field name="place_of_birth">Jandouba</field>
+            <field name="address_id" ref="base.main_company"/>
+            <field name="children">0</field>
+            <field name="department_id" ref="department_administrative"/>
+            <field name="unqiue_number_to_the_employer" eval="628"/>
+            <field name="national_identity_number">07914038</field>
+            <field model="res.partner" name="parent_id" search="[('name','=', 'Habib makni')]"/>
+        </record>
+        <!--ressource -->
+
+        <record id="resource_Mejed_laabidi" model="resource.resource">
+            <field name="name">Méjéd laabidi</field>
+            <field eval="1" name="active"/>
+            <field name="resource_type">user</field>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <!-- Fin : Méjéd laabidi -->
+        <!-- Deb : Amenallah naccache  -->
+        <!-- partner -->
+        <record id="res_partner_Amenallah_naccache" model="res.partner">
+            <field name="name">Amenallah naccache</field>
+            <field eval="[(6, 0, [ref('res_partner_category_employee')])]" name="category_id"/>
+            <field eval="1" name="employee"/>
+            <field eval="0" name="customer"/>
+            <field eval="0" name="supplier"/>
+            <field eval="0" name="is_company"/>
+            <field name="zip">106</field>
+            <field name="country_id" ref="base.tn"/>
+            <field name="street">Résidence omrane 10 – riath landalous - ariana</field>
+            <field name="phone">(+216) 28 339 305</field>
+            <field name="mobile">(+216) 55 267 247</field>
+            <field name="function">Responsable juridique</field>
+        </record>
+        <!--RIB-->
+        <record id="rib_Amenallah_naccache" model="res.partner.bank">
+            <field name="state">rib</field>
+            <field name="bank_code">03</field>
+            <field name="office">122</field>
+            <field name="rib_acc_number">1180101003576</field>
+            <field name="key">86</field>
+            <field name="partner_id" ref="res_partner_Amenallah_naccache"/>
+
+        </record>
+
+        <!-- Maj du bank-->
+        <record id="res_partner_Amenallah_naccache" model="res.partner">
+            <field name="bank_ids" eval="[(6, 0, [ref('rib_Amenallah_naccache')])]"/>
+        </record>
+
+        <!-- employee -->
+        <record id="employee_Amenallah_naccache" model="hr.employee">
+            <field name="name">Amenallah naccache</field>
+            <field name="category_ids" eval="[(6, 0, [ref('employee_category')])]"/>
+            <field name="department_id" ref="department_technique"/>
+            <field name="country_id" ref="base.tn"/>
+            <field name="address_home_id" ref="res_partner_Amenallah_naccache"/>
+
+            <field name="gender">male</field>
+            <field name="marital">married</field>
+            <field name="birthday">1978-04-21</field>
+            <field name="place_of_birth">Tunis</field>
+            <field name="address_id" ref="base.main_company"/>
+            <field name="children">0</field>
+            <field name="department_id" ref="department_administrative"/>
+            <field name="unqiue_number_to_the_employer" eval="9"/>
+            <field name="national_identity_number">04773325</field>
+            <field name="bank_account_id" ref="rib_Amenallah_naccache"/>
+            <field model="res.partner" name="parent_id" search="[('name','=', 'Habib makni')]"/>
+        </record>
+        <!--ressource -->
+
+        <record id="resource_Amenallah_naccache" model="resource.resource">
+            <field name="name">Amenallah naccache</field>
+            <field eval="1" name="active"/>
+            <field name="resource_type">user</field>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <!-- Fin : Amenallah naccache -->
+        <!-- Deb : Houda dammak  -->
+        <!-- partner -->
+        <record id="res_partner_Houda_dammak" model="res.partner">
+            <field name="name">Houda dammak</field>
+            <field eval="[(6, 0, [ref('res_partner_category_employee')])]" name="category_id"/>
+            <field eval="1" name="employee"/>
+            <field eval="0" name="customer"/>
+            <field eval="0" name="supplier"/>
+            <field eval="0" name="is_company"/>
+            <field name="zip">106</field>
+            <field name="country_id" ref="base.tn"/>
+            <field name="street">19- rue manfalouti – bardo - tunis</field>
+            <field name="phone">(+216) 28 888 139</field>
+            <field name="mobile">(+216) 24 780 867</field>
+            <field name="function">Agent commercial</field>
+        </record>
+        <!--RIB-->
+        <record id="rib_Houda_dammak" model="res.partner.bank">
+            <field name="state">rib</field>
+            <field name="bank_code">17</field>
+            <field name="office">001</field>
+            <field name="rib_acc_number">0000002031726</field>
+            <field name="key">05</field>
+            <field name="partner_id" ref="res_partner_Houda_dammak"/>
+
+        </record>
+
+        <!-- Maj du bank-->
+        <record id="res_partner_Houda_dammak" model="res.partner">
+            <field name="bank_ids" eval="[(6, 0, [ref('rib_Houda_dammak')])]"/>
+        </record>
+
+        <!-- employee -->
+        <record id="employee_Houda_dammak" model="hr.employee">
+            <field name="name">Houda dammak</field>
+            <field name="category_ids" eval="[(6, 0, [ref('employee_category')])]"/>
+            <field name="department_id" ref="department_technique"/>
+            <field name="country_id" ref="base.tn"/>
+            <field name="address_home_id" ref="res_partner_Houda_dammak"/>
+
+            <field name="gender">female</field>
+            <field name="marital">single</field>
+            <field name="birthday">1989-06-19</field>
+            <field name="place_of_birth">Tunis</field>
+            <field name="address_id" ref="base.main_company"/>
+            <field name="children">0</field>
+            <field name="department_id" ref="department_commercial"/>
+            <field name="unqiue_number_to_the_employer" eval="5"/>
+            <field name="national_identity_number">08738558</field>
+            <field name="bank_account_id" ref="rib_Houda_dammak"/>
+            <field model="res.partner" name="parent_id" search="[('name','=', 'Habib makni')]"/>
+        </record>
+        <!--ressource -->
+
+        <record id="resource_Houda_dammak" model="resource.resource">
+            <field name="name">Houda dammak</field>
+            <field eval="1" name="active"/>
+            <field name="resource_type">user</field>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <!-- Fin : Houda dammak -->
+        <!-- Deb : Karim makni  -->
+        <!-- partner -->
+        <record id="res_partner_Karim_makni" model="res.partner">
+            <field name="name">Karim makni</field>
+            <field eval="[(6, 0, [ref('res_partner_category_employee')])]" name="category_id"/>
+            <field eval="1" name="employee"/>
+            <field eval="0" name="customer"/>
+            <field eval="0" name="supplier"/>
+            <field eval="0" name="is_company"/>
+            <field name="zip">106</field>
+            <field name="country_id" ref="base.tn"/>
+            <field name="street">21- rue mosbeh jarboua – manar 3 - tunis</field>
+            <field name="phone">(+216)</field>
+            <field name="mobile">(+216) 0</field>
+            <field name="function">Directeur commercial</field>
+        </record>
+
+
+        <!-- employee -->
+        <record id="employee_Karim_makni" model="hr.employee">
+            <field name="name">Karim makni</field>
+            <field name="category_ids" eval="[(6, 0, [ref('employee_category')])]"/>
+            <field name="department_id" ref="department_technique"/>
+            <field name="country_id" ref="base.tn"/>
+            <field name="address_home_id" ref="res_partner_Karim_makni"/>
+
+            <field name="gender">male</field>
+            <field name="marital">single</field>
+            <field name="birthday">1985-05-16</field>
+            <field name="place_of_birth">Tunis</field>
+            <field name="address_id" ref="base.main_company"/>
+            <field name="children">0</field>
+            <field name="department_id" ref="department_commercial"/>
+            <field name="unqiue_number_to_the_employer" eval="8"/>
+            <field name="national_identity_number">08714230</field>
+            <field model="res.partner" name="parent_id" search="[('name','=', 'Habib makni')]"/>
+        </record>
+        <!--ressource -->
+
+        <record id="resource_Karim_makni" model="resource.resource">
+            <field name="name">Karim makni</field>
+            <field eval="1" name="active"/>
+            <field name="resource_type">user</field>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <!-- Fin : Karim makni -->
+        <!-- Deb : Mariem kanzari  -->
+        <!-- partner -->
+        <record id="res_partner_Mariem_kanzari" model="res.partner">
+            <field name="name">Mariem kanzari</field>
+            <field eval="[(6, 0, [ref('res_partner_category_employee')])]" name="category_id"/>
+            <field eval="1" name="employee"/>
+            <field eval="0" name="customer"/>
+            <field eval="0" name="supplier"/>
+            <field eval="0" name="is_company"/>
+            <field name="zip">106</field>
+            <field name="country_id" ref="base.tn"/>
+            <field name="street">21- rue montevidéo – bardo - tunis</field>
+            <field name="phone">(+216) 0</field>
+            <field name="mobile">(+216) 22 919 926</field>
+            <field name="function">Assistante de direction</field>
+        </record>
+        <!--RIB-->
+        <record id="rib_Mariem_kanzari" model="res.partner.bank">
+            <field name="state">rib</field>
+            <field name="bank_code">01</field>
+            <field name="office">044</field>
+            <field name="rib_acc_number">0881130006395</field>
+            <field name="key">89</field>
+            <field name="partner_id" ref="res_partner_Mariem_kanzari"/>
+
+        </record>
+
+        <!-- Maj du bank-->
+        <record id="res_partner_Mariem_kanzari" model="res.partner">
+            <field name="bank_ids" eval="[(6, 0, [ref('rib_Mariem_kanzari')])]"/>
+        </record>
+
+        <!-- employee -->
+        <record id="employee_Mariem_kanzari" model="hr.employee">
+            <field name="name">Mariem kanzari</field>
+            <field name="category_ids" eval="[(6, 0, [ref('employee_category')])]"/>
+            <field name="department_id" ref="department_technique"/>
+            <field name="country_id" ref="base.tn"/>
+            <field name="address_home_id" ref="res_partner_Mariem_kanzari"/>
+
+            <field name="gender">female</field>
+            <field name="marital">married</field>
+            <field name="birthday">1988-08-11</field>
+            <field name="place_of_birth">Tunis</field>
+            <field name="address_id" ref="base.main_company"/>
+            <field name="children">0</field>
+            <field name="department_id" ref="department_administrative"/>
+            <field name="unqiue_number_to_the_employer" eval="11"/>
+            <field name="national_identity_number">07154767</field>
+            <field name="bank_account_id" ref="rib_Mariem_kanzari"/>
+            <field model="res.partner" name="parent_id" search="[('name','=', 'Habib makni')]"/>
+        </record>
+        <!--ressource -->
+
+        <record id="resource_Mariem_kanzari" model="resource.resource">
+            <field name="name">Mariem kanzari</field>
+            <field eval="1" name="active"/>
+            <field name="resource_type">user</field>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <!-- Fin : Mariem kanzari -->
+        <!-- Deb : Ali soltani  -->
+        <!-- partner -->
+        <record id="res_partner_Ali_soltani" model="res.partner">
+            <field name="name">Ali soltani</field>
+            <field eval="[(6, 0, [ref('res_partner_category_employee')])]" name="category_id"/>
+            <field eval="1" name="employee"/>
+            <field eval="0" name="customer"/>
+            <field eval="0" name="supplier"/>
+            <field eval="0" name="is_company"/>
+            <field name="zip">106</field>
+            <field name="country_id" ref="base.tn"/>
+            <field name="street">Cité nassim – bni khiar - nabeul</field>
+            <field name="phone">(+216) 28 339 301</field>
+            <field name="mobile">(+216) 0</field>
+            <field name="function">gardien</field>
+        </record>
+
+
+        <!-- employee -->
+        <record id="employee_Ali_soltani" model="hr.employee">
+            <field name="name">Ali soltani</field>
+            <field name="category_ids" eval="[(6, 0, [ref('employee_category')])]"/>
+            <field name="department_id" ref="department_technique"/>
+            <field name="country_id" ref="base.tn"/>
+            <field name="address_home_id" ref="res_partner_Ali_soltani"/>
+
+            <field name="gender">male</field>
+            <field name="marital">married</field>
+            <field name="birthday">1980-11-04</field>
+            <field name="place_of_birth">Nabeul</field>
+            <field name="address_id" ref="base.main_company"/>
+            <field name="children">1</field>
+            <field name="department_id" ref="department_syndic"/>
+            <field name="unqiue_number_to_the_employer" eval="65"/>
+            <field name="national_identity_number">06394057</field>
+            <field model="hr.employee" name="parent_id" search="[('name','=', 'Ahmed makni')]"/>
+        </record>
+        <!--ressource -->
+
+        <record id="resource_Ali_soltani" model="resource.resource">
+            <field name="name">Ali soltani</field>
+            <field eval="1" name="active"/>
+            <field name="resource_type">user</field>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <!-- Fin : Ali soltani -->
+        <!-- Deb : Abdelbasset benbelgacem  -->
+        <!-- partner -->
+        <record id="res_partner_Abdelbasset_benbelgacem" model="res.partner">
+            <field name="name">Abdelbasset benbelgacem</field>
+            <field eval="[(6, 0, [ref('res_partner_category_employee')])]" name="category_id"/>
+            <field eval="1" name="employee"/>
+            <field eval="0" name="customer"/>
+            <field eval="0" name="supplier"/>
+            <field eval="0" name="is_company"/>
+            <field name="zip">106</field>
+            <field name="country_id" ref="base.tn"/>
+            <field name="street">Cité nassim – bni khiar - nabeul</field>
+            <field name="phone">(+216) 28 339 301</field>
+            <field name="mobile">(+216) 0</field>
+            <field name="function">gardien</field>
+        </record>
+
+
+        <!-- employee -->
+        <record id="employee_Abdelbasset_benbelgacem" model="hr.employee">
+            <field name="name">Abdelbasset benbelgacem</field>
+            <field name="category_ids" eval="[(6, 0, [ref('employee_category')])]"/>
+            <field name="department_id" ref="department_technique"/>
+            <field name="country_id" ref="base.tn"/>
+            <field name="address_home_id" ref="res_partner_Abdelbasset_benbelgacem"/>
+
+            <field name="gender">male</field>
+            <field name="marital">single</field>
+            <field name="birthday">1983-03-14</field>
+            <field name="place_of_birth">Korba</field>
+            <field name="address_id" ref="base.main_company"/>
+            <field name="children">0</field>
+            <field name="department_id" ref="department_syndic"/>
+            <field name="unqiue_number_to_the_employer" eval="66"/>
+            <field name="national_identity_number">06408984</field>
+            <field model="hr.employee" name="parent_id" search="[('name','=', 'Ahmed makni')]"/>
+        </record>
+        <!--ressource -->
+
+        <record id="resource_Abdelbasset_benbelgacem" model="resource.resource">
+            <field name="name">Abdelbasset benbelgacem</field>
+            <field eval="1" name="active"/>
+            <field name="resource_type">user</field>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <!-- Fin : Abdelbasset benbelgacem -->
+
+
+
+    </data>
+</openerp>

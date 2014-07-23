@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+    <!--departement -->
+
+        <record id="department_technique" model="hr.department">
+            <field name="name">Technical Department</field>
+        </record>
+        <record id="department_syndic" model="hr.department">
+            <field name="name">Department trustee</field>
+        </record>
+        <record id="department_administrative" model="hr.department">
+            <field name="name">Administrative Department</field>
+        </record>
+        <record id="department_commercial" model="hr.department">
+            <field name="name">Commercial Department</field>
+        </record>
+
+
+        <record id="employee_category" model="hr.employee.category">
+          <field name="name">Employee</field>
+      </record>
+
+    </data>
+</openerp>

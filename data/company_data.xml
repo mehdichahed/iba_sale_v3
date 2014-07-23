@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <!-- BANK-->
+        <record id="poste" model="res.bank">
+            <field name="name">La poste</field>
+            <field name="bic">17</field>
+        </record>
+        <record id="amenbank" model="res.bank">
+            <field name="name">Amen Bank</field>
+            <field name="bic">07</field>
+        </record>
+        <record id="bna" model="res.bank">
+            <field name="name">BNA</field>
+            <field name="bic">03</field>
+        </record>
+        <record id="atb" model="res.bank">
+            <field name="name">ATB</field>
+            <field name="bic">01</field>
+        </record>
+        <record id="ittijaribank" model="res.bank">
+            <field name="name">ATTIJARI BANK</field>
+            <field name="bic">03</field>
+        </record>
+        <record id="ubci" model="res.bank">
+            <field name="name">UBCI</field>
+            <field name="bic">11</field>
+        </record>
+
+        <!-- societé-->
+        <record id="base.main_company" model="res.company">
+            <field name="name">Immobiliere des Beaux Arts</field>
+            <field name="rml_footer">Tél.: +216 884 800 | Fax: +216 883 166 | Courriel: contact@makni.tn | Site Web:http:\\www.makni.tn</field>
+            <field name="paper_format">a4</field>
+            <field name="tax_calculation_rounding_method">round_per_line</field>
+            <field name="schedule_range">730</field>
+            <field name="po_lead">1</field>
+            <field name="security_lead">0</field>
+            <field name="check_layout">top</field>
+            <field name="street">Espace Makni, 5éme Etage, Avenue Tahar Ben Ammar, Menzah 9</field>
+            <field name="zip">1013</field>
+            <field name="country_id" ref="base.tn"/>
+            <field name="phone">+216 71 884 800</field>
+            <field name="fax">+216 71 883 166</field>
+            <!--<field name="vat">000-M-A-1234719/P</field>-->
+            <field name="email">contact@makni.tn</field>
+            <!--<field name="company_registry">www.makni.tn</field>-->
+        </record>
+    </data>
+</openerp>

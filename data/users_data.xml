@@ -1,0 +1,166 @@
+<openerp>
+    <data>
+
+        <!-- user -->
+        <record model="res.users" id="res_user_mariem">
+            <field name="name">Mariem Kanzari</field>
+            <field name="company_id" ref="base.main_company"/>
+            <field name="company_ids" eval="[(4, ref('base.main_company'))]"/>
+            <field name="menu_id" ref="base.action_menu_admin"/>
+            <field name="login">ma.kanzari</field>
+            <field name="password">ma.kanzari</field>
+            <field name="partner_id" ref="res_partner_Mariem_kanzari"/>
+            <field name="signature">---- Mariem Kanzari ----</field>
+            <field name="groups_id"
+                   eval="[(4,ref('base.group_sale_salesman')),(4,ref('base.group_user')),(4,ref('analytic.group_analytic_accounting')),(4,ref('account.group_supplier_inv_check_total')),(4,ref('stock.group_locations')),(4,ref('purchase.group_analytic_accounting')),(4,ref('account.group_proforma_invoices')),(4,ref('sale.group_analytic_accounting')),(4,ref('base.group_partner_manager'))]"/>
+        </record>
+
+        <record id="employee_Mariem_kanzari" model="hr.employee">
+            <field name="user_id" ref="res_user_mariem"/>
+        </record>
+
+        <record model="res.users" id="res_user_houda">
+            <field name="name">Houda Dammak</field>
+            <field name="company_id" ref="base.main_company"/>
+            <field name="company_ids" eval="[(4, ref('base.main_company'))]"/>
+            <field name="menu_id" ref="base.action_menu_admin"/>
+            <field name="login">ho.dammak</field>
+            <field name="password">ho.dammak</field>
+            <!-- <field name="partner_id" ref="res_partner_Houda_dammak"/> -->
+            <field name="signature">---- Houda Dammak ----</field>
+            <field name="groups_id"
+                   eval="[(4,ref('base.group_sale_manager')),(4,ref('base.group_user')),(4,ref('analytic.group_analytic_accounting')),(4,ref('account.group_supplier_inv_check_total')),(4,ref('stock.group_locations')),(4,ref('purchase.group_analytic_accounting')),(4,ref('account.group_proforma_invoices')),(4,ref('sale.group_analytic_accounting')),(4,ref('base.group_partner_manager'))]"/>
+        </record>
+
+        <record id="employee_Houda_dammak" model="hr.employee">
+            <field name="user_id" ref="res_user_houda"/>
+        </record>
+
+
+        <record model="res.users" id="res_user_khaled">
+            <field name="name">Khaled Rhouma</field>
+            <field name="company_id" ref="base.main_company"/>
+            <field name="company_ids" eval="[(4, ref('base.main_company'))]"/>
+            <field name="menu_id" ref="base.action_menu_admin"/>
+            <field name="login">kh.rhouma</field>
+            <field name="password">kh.rhouma</field>
+            <!-- <field name="partner_id" ref="res_partner_Khaled_rhouma"/> -->
+            <field name="signature">---- Khaled Rhouma ----</field>
+            <field name="groups_id"
+            eval="[(4,ref('base.group_sale_manager')),(4,ref('stock.group_stock_manager')),(4,ref('account.group_account_manager')),(4,ref('base.group_hr_manager')),(4,ref('analytic.group_analytic_accounting')),(4,ref('account.group_supplier_inv_check_total')),(4,ref('stock.group_locations')),(4,ref('purchase.group_analytic_accounting')),(4,ref('account.group_proforma_invoices')),(4,ref('sale.group_analytic_accounting')),(4,ref('base.group_partner_manager')),(4,ref('purchase.group_purchase_user')),(4,ref('group_purchase_DAF')),(4,ref('purchase.group_purchase_manager'))]"/>
+        </record>
+
+        <record id="employee_Khaled_rhouma" model="hr.employee">
+            <field name="user_id" ref="res_user_khaled"/>
+        </record>
+
+        <record model="res.users" id="res_user_Hichem">
+            <field name="name">Hichem Makni</field>
+            <field name="company_id" ref="base.main_company"/>
+            <field name="company_ids" eval="[(4, ref('base.main_company'))]"/>
+            <field name="menu_id" ref="base.action_menu_admin"/>
+            <field name="login">hi.makni</field>
+            <field name="password">hi.makni</field>
+            <!-- <field name="partner_id" ref="res_partner_hichem_makni"/> -->
+            <field name="signature">---- Hichem Makni ----</field>
+            <field name="groups_id"
+                   eval="[(4,ref('stock.group_stock_user')),(4,ref('base.group_user')),(4,ref('analytic.group_analytic_accounting')),(4,ref('account.group_supplier_inv_check_total')),(4,ref('stock.group_locations')),(4,ref('purchase.group_analytic_accounting')),(4,ref('account.group_proforma_invoices')),(4,ref('sale.group_analytic_accounting')),(4,ref('base.group_partner_manager')),(4,ref('purchase.group_purchase_user')),(4,ref('group_purchase_service_conformite2')),(4,ref('purchase.group_purchase_manager'))]"/>
+        </record>
+
+        <record id="employee_hichem_makni" model="hr.employee">
+            <field name="user_id" ref="res_user_Hichem"/>
+        </record>
+
+        <record model="res.users" id="res_user_Mohamed">
+            <field name="name">Mohamed Makni</field>
+            <field name="company_id" ref="base.main_company"/>
+            <field name="company_ids" eval="[(4, ref('base.main_company'))]"/>
+            <field name="menu_id" ref="base.action_menu_admin"/>
+            <field name="login">mo.makni</field>
+            <field name="password">mo.makni</field>
+            <field name="signature">---- Mohamed Makni ----</field>
+            <field name="groups_id"
+                   eval="[(4,ref('stock.group_stock_manager')),(4,ref('account.group_account_manager')),(4,ref('base.group_hr_manager')),(4,ref('analytic.group_analytic_accounting')),(4,ref('account.group_supplier_inv_check_total')),(4,ref('stock.group_locations')),(4,ref('purchase.group_analytic_accounting')),(4,ref('account.group_proforma_invoices')),(4,ref('sale.group_analytic_accounting')),(4,ref('base.group_partner_manager')),(4,ref('account_payment.group_account_payment')),(4,ref('purchase.group_purchase_user')),(4,ref('group_purchase_chef_de_projet')),(4,ref('purchase.group_purchase_manager'))]"/>
+        </record>
+
+
+        <record model="res.users" id="res_user_Mourad">
+            <field name="name">Mourad El Jeri</field>
+            <field name="company_id" ref="base.main_company"/>
+            <field name="company_ids" eval="[(4, ref('base.main_company'))]"/>
+            <field name="menu_id" ref="base.action_menu_admin"/>
+            <field name="login">mo.eljeri</field>
+            <field name="password">mo.eljeri</field>
+            <field name="signature">---- Mourad El Jery ----</field>
+            <field name="groups_id"
+                   eval="[(4,ref('account.group_account_manager')),(4,ref('base.group_user')),(4,ref('analytic.group_analytic_accounting')),(4,ref('account.group_supplier_inv_check_total')),(4,ref('stock.group_locations')),(4,ref('purchase.group_analytic_accounting')),(4,ref('account.group_proforma_invoices')),(4,ref('sale.group_analytic_accounting')),(4,ref('base.group_partner_manager')),(4,ref('account_payment.group_account_payment')),(4,ref('purchase.group_purchase_user')),(4,ref('group_purchase_service_comptable')),(4,ref('purchase.group_purchase_manager'))]"/>
+
+        </record>
+
+        <record model="res.users" id="res_user_karim">
+            <field name="name">Karim Makni</field>
+            <field name="company_id" ref="base.main_company"/>
+            <field name="company_ids" eval="[(4, ref('base.main_company'))]"/>
+            <field name="menu_id" ref="base.action_menu_admin"/>
+            <field name="login">ka.makni</field>
+            <field name="password">ka.makni</field>
+            <!-- <field name="partner_id" ref="res_partner_Karim_makni"/> -->
+            <field name="signature">---- Karim Makni ----</field>
+            <field name="groups_id" eval="[(4,ref('base.group_sale_manager')),(4,ref('base.group_user')),(4,ref('analytic.group_analytic_accounting')),(4,ref('account.group_supplier_inv_check_total')),(4,ref('stock.group_locations')),(4,ref('purchase.group_analytic_accounting')),(4,ref('account.group_proforma_invoices')),(4,ref('sale.group_analytic_accounting')),(4,ref('base.group_partner_manager')),(4,ref('account_payment.group_account_payment'))]"/>
+        </record>
+
+        <record id="employee_Karim_makni" model="hr.employee">
+            <field name="user_id" ref="res_user_karim"/>
+        </record>
+
+        <record model="res.users" id="res_user_raouf">
+            <field name="name">Abderaouf Chikhi</field>
+            <field name="company_id" ref="base.main_company"/>
+            <field name="company_ids" eval="[(4, ref('base.main_company'))]"/>
+            <field name="menu_id" ref="base.action_menu_admin"/>
+            <field name="login">ra.chikhi</field>
+            <field name="password">ra.chikhi</field>
+            <!-- <field name="partner_id" ref="res_partner_Abderaouf_chikhi"/> -->
+            <field name="signature">---- Abderaouf Chikhi ----</field>
+            <field name="groups_id" eval="[(4,ref('account.group_account_user')),(4,ref('base.group_user')),(4,ref('analytic.group_analytic_accounting')),(4,ref('account.group_supplier_inv_check_total')),(4,ref('stock.group_locations')),(4,ref('purchase.group_analytic_accounting')),(4,ref('account.group_proforma_invoices')),(4,ref('sale.group_analytic_accounting')),(4,ref('base.group_partner_manager')),(4,ref('account_payment.group_account_payment')),(4,ref('purchase.group_purchase_user')),(4,ref('purchase.group_purchase_manager'))]"/>
+        </record>
+
+        <record id="employee_Abderaouf_chikhi" model="hr.employee">
+            <field name="user_id" ref="res_user_raouf"/>
+        </record>
+
+        <record model="res.users" id="res_user_Ahmed">
+            <field name="name">Ahmed Makni</field>
+            <field name="company_id" ref="base.main_company"/>
+            <field name="company_ids" eval="[(4, ref('base.main_company'))]"/>
+            <field name="menu_id" ref="base.action_menu_admin"/>
+            <field name="login">ah.makni</field>
+            <field name="password">ah.makni</field>
+            <!-- <field name="partner_id" ref="res_partner_Ahmed_makni"/> -->
+            <field name="signature">---- Ahmed Makni ----</field>
+			<field name="groups_id" eval="[(4,ref('base.group_sale_manager')),(4,ref('stock.group_stock_manager')),(4,ref('account.group_account_manager')),(4,ref('base.group_hr_manager')),(4,ref('analytic.group_analytic_accounting')),(4,ref('account.group_supplier_inv_check_total')),(4,ref('stock.group_locations')),(4,ref('purchase.group_analytic_accounting')),(4,ref('account.group_proforma_invoices')),(4,ref('sale.group_analytic_accounting')),(4,ref('base.group_partner_manager')),(4,ref('group_purchase_chef_de_projet'))]"/>
+        </record>
+
+        <record id="employee_Ahmed_makni" model="hr.employee">
+            <field name="user_id" ref="res_user_Ahmed"/>
+        </record>
+
+        <record model="res.users" id="res_user_makrem">
+            <field name="name" >Makrem Makni</field>
+            <field name="company_id" ref="base.main_company"/>
+            <field name="company_ids" eval="[(4, ref('base.main_company'))]"/>
+            <field name="menu_id" ref="base.action_menu_admin"/>
+            <field name="login" >ma.makni</field>
+            <field name="password" >ma.makni</field>
+            <!-- <field name="partner_id" ref="res_partner_Makrem_makni"/> -->
+            <field name="signature">Makrem Makni</field>
+            <field name="groups_id"
+                   eval="[(4,ref('stock.group_stock_user')),(4,ref('base.group_user')),(4,ref('analytic.group_analytic_accounting')),(4,ref('account.group_supplier_inv_check_total')),(4,ref('stock.group_locations')),(4,ref('purchase.group_analytic_accounting')),(4,ref('account.group_proforma_invoices')),(4,ref('sale.group_analytic_accounting')),(4,ref('base.group_partner_manager')),(4,ref('purchase.group_purchase_user')),(4,ref('stock.group_stock_user')),(4,ref('purchase.group_purchase_manager'))]"/>
+
+        </record>
+        <record id="employee_Makrem_makni" model="hr.employee">
+            <field name="user_id" ref="res_user_makrem"/>
+        </record>
+
+    </data>
+</openerp>

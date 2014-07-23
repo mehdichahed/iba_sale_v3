@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+ <!-- catégorie de produit -->
+
+        <record id="product_category_immo" model="product.category">
+            <field name="parent_id" ref="product.product_category_all"/>
+            <field name="name">Bien immobilier</field>
+        </record>
+
+ <!-- masque XML de l'article -->
+
+    <record id="BG13" model="product.product">
+	        <field name="name">BG13</field>
+	        <field name="categ_id" ref="product_category_immo"/>
+	        <field name="type">bien_immobilier</field>
+            <field name="project">sables_argentees</field>
+            <field name="type_appartement">2</field>
+            <field name="type_local">appartement</field>
+            <field name="surface_hors_oeuvre">115.8</field>
+            <field name="surface_commune">12.2</field>
+            <field name="terasse_couverte">0</field>
+            <field name="surface_jardin">7.5</field>
+            <field name="list_price">180000</field>
+            <field name="etage"></field>
+            <field name="bloc">a</field>
+            <field name="sale_ok">1</field>
+    </record>
+
+    <record id="BG14" model="product.product">
+	        <field name="name">BG14</field>
+	        <field name="categ_id" ref="product_category_immo"/>
+	        <field name="type">bien_immobilier</field>
+            <field name="project">sables_argentees</field>
+            <field name="type_appartement">2</field>
+            <field name="type_local">appartement</field>
+            <field name="surface_hors_oeuvre">81</field>
+            <field name="surface_commune">12.2</field>
+            <field name="terasse_couverte">5</field>
+            <field name="surface_jardin">38.4</field>
+            <field name="list_price">155980</field>
+            <field name="etage">0</field>
+            <field name="bloc">b</field>
+            <field name="sale_ok">1</field>
+    </record>
+
+    <record id="BF2" model="product.product">
+	        <field name="name">BF2</field>
+	        <field name="categ_id" ref="product_category_immo"/>
+	        <field name="type">bien_immobilier</field>
+            <field name="project">sables_argentees</field>
+            <field name="type_appartement">3</field>
+            <field name="type_local">appartement</field>
+            <field name="surface_hors_oeuvre">96</field>
+            <field name="surface_commune">14.4</field>
+            <field name="terasse_couverte">11.3</field>
+            <field name="surface_jardin">0</field>
+            <field name="list_price">165600</field>
+            <field name="etage">1</field>
+            <field name="bloc">b</field>
+            <field name="sale_ok">1</field>
+    </record>
+
+    <record id="BF3" model="product.product">
+	        <field name="name">BF3</field>
+	        <field name="categ_id" ref="product_category_immo"/>
+	        <field name="type">bien_immobilier</field>
+            <field name="project">sables_argentees</field>
+            <field name="type_appartement">3</field>
+            <field name="type_local">appartement</field>
+            <field name="surface_hors_oeuvre">95.5</field>
+            <field name="surface_commune">14.3</field>
+            <field name="terasse_couverte">11.3</field>
+            <field name="surface_jardin">0</field>
+            <field name="list_price">164700</field>
+            <field name="etage">1</field>
+            <field name="bloc">b</field>
+	        <field name="sale_ok">1</field>
+    </record>
+
+    <record id="BF4" model="product.product">
+	        <field name="name">BF4</field>
+	        <field name="categ_id" ref="product_category_immo"/>
+	        <field name="type">bien_immobilier</field>
+            <field name="project">sables_argentees</field>
+            <field name="type_appartement">2</field>
+            <field name="type_local">appartement</field>
+            <field name="surface_hors_oeuvre">78.4</field>
+            <field name="surface_commune">11.8</field>
+            <field name="terasse_couverte">8.7</field>
+            <field name="surface_jardin">0</field>
+            <field name="list_price">135300</field>
+            <field name="etage">1</field>
+            <field name="bloc">b</field>
+	        <field name="sale_ok">1</field>
+    </record>
+
+    <record id="BF5" model="product.product">
+	        <field name="name">BF5</field>
+	        <field name="categ_id" ref="product_category_immo"/>
+	        <field name="type">bien_immobilier</field>
+            <field name="project">sables_argentees</field>
+            <field name="type_appartement">2</field>
+            <field name="type_local">appartement</field>
+            <field name="surface_hors_oeuvre">76.3</field>
+            <field name="surface_commune">11.4</field>
+            <field name="terasse_couverte">6.1</field>
+            <field name="surface_jardin">0</field>
+            <field name="list_price">135935</field>
+            <field name="etage">1</field>
+            <field name="bloc">b</field>
+	        <field name="sale_ok">1</field>
+    </record>
+
+    <record id="BF6" model="product.product">
+	        <field name="name">BF6</field>
+	        <field name="categ_id" ref="product_category_immo"/>
+	        <field name="type">bien_immobilier</field>
+            <field name="project">sables_argentees</field>
+            <field name="type_appartement">2</field>
+            <field name="type_local">appartement</field>
+            <field name="surface_hors_oeuvre">76.3</field>
+            <field name="surface_commune">11.4</field>
+            <field name="terasse_couverte">6.1</field>
+            <field name="surface_jardin">0</field>
+            <field name="list_price">135935</field>
+            <field name="etage">1</field>
+            <field name="bloc">b</field>
+	        <field name="sale_ok">1</field>
+    </record>
+
+    <record id="BF7" model="product.product">
+	        <field name="name">BF7</field>
+	        <field name="categ_id" ref="product_category_immo"/>
+	        <field name="type">bien_immobilier</field>
+            <field name="project">sables_argentees</field>
+            <field name="type_appartement">2vm</field>
+            <field name="type_local">appartement</field>
+            <field name="surface_hors_oeuvre">78.4</field>
+            <field name="surface_commune">11.8</field>
+            <field name="terasse_couverte">8.7</field>
+            <field name="surface_jardin">0</field>
+            <field name="list_price">148830</field>
+            <field name="etage">1</field>
+            <field name="bloc">b</field>
+	        <field name="sale_ok">1</field>
+    </record>
+
+    <record id="BF8" model="product.product">
+	        <field name="name">BF8</field>
+	        <field name="categ_id" ref="product_category_immo"/>
+	        <field name="type">bien_immobilier</field>
+            <field name="project">sables_argentees</field>
+            <field name="type_appartement">3vm</field>
+            <field name="type_local">appartement</field>
+            <field name="surface_hors_oeuvre">95.5</field>
+            <field name="surface_commune">14.3</field>
+            <field name="terasse_couverte">11.3</field>
+            <field name="surface_jardin">0</field>
+            <field name="list_price">181170</field>
+            <field name="etage">1</field>
+            <field name="bloc">b</field>
+	        <field name="sale_ok">1</field>
+    </record>
+
+    <record id="BS1" model="product.product">
+	        <field name="name">BS1</field>
+	        <field name="categ_id" ref="product_category_immo"/>
+	        <field name="type">bien_immobilier</field>
+            <field name="project">sables_argentees</field>
+            <field name="type_appartement">2</field>
+            <field name="type_local">appartement</field>
+            <field name="surface_hors_oeuvre">77.2</field>
+            <field name="surface_commune">11.6</field>
+            <field name="terasse_couverte">8.4</field>
+            <field name="surface_jardin">0</field>
+            <field name="list_price">133200</field>
+            <field name="etage">2</field>
+            <field name="bloc">b</field>
+	        <field name="sale_ok">1</field>
+    </record>
+
+    <record id="BS4" model="product.product">
+	        <field name="name">BS4</field>
+	        <field name="categ_id" ref="product_category_immo"/>
+	        <field name="type">bien_immobilier</field>
+            <field name="project">sables_argentees</field>
+            <field name="type_appartement">2</field>
+            <field name="type_local">appartement</field>
+            <field name="surface_hors_oeuvre">78.4</field>
+            <field name="surface_commune">11.8</field>
+            <field name="terasse_couverte">8.7</field>
+            <field name="surface_jardin">0</field>
+            <field name="list_price">135300</field>
+            <field name="etage">2</field>
+            <field name="bloc">b</field>
+	        <field name="sale_ok">1</field>
+    </record>
+
+    <record id="BS7" model="product.product">
+	        <field name="name">BS7</field>
+	        <field name="categ_id" ref="product_category_immo"/>
+	        <field name="type">bien_immobilier</field>
+            <field name="project">sables_argentees</field>
+            <field name="type_appartement">2vm</field>
+            <field name="type_local">appartement</field>
+            <field name="surface_hors_oeuvre">78.4</field>
+            <field name="surface_commune">11.8</field>
+            <field name="terasse_couverte">8.7</field>
+            <field name="surface_jardin">0</field>
+            <field name="list_price">148830</field>
+            <field name="etage">2</field>
+            <field name="bloc">b</field>
+	        <field name="sale_ok">1</field>
+    </record>
+
+    <record id="CG2" model="product.product">
+	        <field name="name">CG2</field>
+	        <field name="categ_id" ref="product_category_immo"/>
+	        <field name="type">bien_immobilier</field>
+            <field name="project">sables_argentees</field>
+            <field name="type_appartement">2</field>
+            <field name="type_local">appartement</field>
+            <field name="surface_hors_oeuvre">13.1</field>
+            <field name="surface_commune">12.8</field>
+            <field name="terasse_couverte">13.1</field>
+            <field name="surface_jardin">94.8</field>
+            <field name="list_price">175890</field>
+            <field name="etage">0</field>
+            <field name="bloc">c</field>
+	        <field name="sale_ok">1</field>
+    </record>
+
+    <record id="CF2" model="product.product">
+	        <field name="name">CF2</field>
+	        <field name="categ_id" ref="product_category_immo"/>
+	        <field name="type">bien_immobilier</field>
+            <field name="project">sables_argentees</field>
+            <field name="type_appartement">2</field>
+            <field name="type_local">appartement</field>
+            <field name="surface_hors_oeuvre">85.5</field>
+            <field name="surface_commune">12.8</field>
+            <field name="terasse_couverte">13.1</field>
+            <field name="surface_jardin">0</field>
+            <field name="list_price">147450</field>
+            <field name="etage">1</field>
+            <field name="bloc">c</field>
+	        <field name="sale_ok">1</field>
+    </record>
+
+    <record id="CF3" model="product.product">
+	        <field name="name">CF3</field>
+	        <field name="categ_id" ref="product_category_immo"/>
+	        <field name="type">bien_immobilier</field>
+            <field name="project">sables_argentees</field>
+            <field name="type_appartement">2</field>
+            <field name="type_local">appartement</field>
+            <field name="surface_hors_oeuvre">95.3</field>
+            <field name="surface_commune">14.3</field>
+            <field name="terasse_couverte">13.6</field>
+            <field name="surface_jardin">0</field>
+            <field name="list_price">164400</field>
+            <field name="etage">1</field>
+            <field name="bloc">c</field>
+	        <field name="sale_ok">1</field>
+    </record>
+
+    <record id="CF4" model="product.product">
+	        <field name="name">CF4</field>
+	        <field name="categ_id" ref="product_category_immo"/>
+	        <field name="type">bien_immobilier</field>
+            <field name="project">sables_argentees</field>
+            <field name="type_appartement">2vm</field>
+            <field name="type_local">appartement</field>
+            <field name="surface_hors_oeuvre">93.5</field>
+            <field name="surface_commune">14</field>
+            <field name="terasse_couverte">13.6</field>
+            <field name="surface_jardin">0</field>
+            <field name="list_price">177375</field>
+            <field name="etage">1</field>
+            <field name="bloc">c</field>
+	        <field name="sale_ok">1</field>
+    </record>
+
+    <record id="CF5" model="product.product">
+	        <field name="name">CF5</field>
+	        <field name="categ_id" ref="product_category_immo"/>
+	        <field name="type">bien_immobilier</field>
+            <field name="project">sables_argentees</field>
+            <field name="type_appartement">2vm</field>
+            <field name="type_local">appartement</field>
+            <field name="surface_hors_oeuvre">85.5</field>
+            <field name="surface_commune">12.8</field>
+            <field name="terasse_couverte">13.2</field>
+            <field name="surface_jardin">0</field>
+            <field name="list_price">162195</field>
+            <field name="etage">1</field>
+            <field name="bloc">c</field>
+	        <field name="sale_ok">1</field>
+    </record>
+
+    <record id="CF9" model="product.product">
+	        <field name="name">CF9</field>
+	        <field name="categ_id" ref="product_category_immo"/>
+	        <field name="type">bien_immobilier</field>
+            <field name="project">sables_argentees</field>
+            <field name="type_appartement">2</field>
+            <field name="type_local">appartement</field>
+            <field name="surface_hors_oeuvre">90.5</field>
+            <field name="surface_commune">13.6</field>
+            <field name="terasse_couverte">11.6</field>
+            <field name="surface_jardin">0</field>
+            <field name="list_price">161355</field>
+            <field name="etage">1</field>
+            <field name="bloc">c</field>
+	        <field name="sale_ok">1</field>
+    </record>
+
+    <record id="CF10" model="product.product">
+	        <field name="name">CF10</field>
+	        <field name="categ_id" ref="product_category_immo"/>
+	        <field name="type">bien_immobilier</field>
+            <field name="project">sables_argentees</field>
+            <field name="type_appartement">2</field>
+            <field name="type_local">appartement</field>
+            <field name="surface_hors_oeuvre">90.5</field>
+            <field name="surface_commune">13.6</field>
+            <field name="terasse_couverte">11.6</field>
+            <field name="surface_jardin">0</field>
+            <field name="list_price">161355</field>
+            <field name="etage">1</field>
+            <field name="bloc">c</field>
+	        <field name="sale_ok">1</field>
+    </record>
+
+    <record id="CS2" model="product.product">
+	        <field name="name">CS2</field>
+	        <field name="categ_id" ref="product_category_immo"/>
+	        <field name="type">bien_immobilier</field>
+            <field name="project">sables_argentees</field>
+            <field name="type_appartement">2</field>
+            <field name="type_local">appartement</field>
+            <field name="surface_hors_oeuvre">85.5</field>
+            <field name="surface_commune">12.8</field>
+            <field name="terasse_couverte">13.1</field>
+            <field name="surface_jardin">0</field>
+            <field name="list_price">147450</field>
+            <field name="etage">2</field>
+            <field name="bloc">c</field>
+	        <field name="sale_ok">1</field>
+    </record>
+
+    <record id="CS4" model="product.product">
+	        <field name="name">CS4</field>
+	        <field name="categ_id" ref="product_category_immo"/>
+	        <field name="type">bien_immobilier</field>
+            <field name="project">sables_argentees</field>
+            <field name="type_appartement">2</field>
+            <field name="type_local">appartement</field>
+            <field name="surface_hors_oeuvre"></field>
+            <field name="surface_commune">14</field>
+            <field name="terasse_couverte"></field>
+            <field name="surface_jardin">0</field>
+            <field name="list_price">177375</field>
+            <field name="etage">2</field>
+            <field name="bloc">c</field>
+	        <field name="sale_ok">1</field>
+    </record>
+    </data>
+</openerp>
+
+
+

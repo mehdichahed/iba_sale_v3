@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+
+   <!-- <record id="group_purchase_service_financier" model="res.groups">
+            <field name="name">Service financier</field>
+            <field name="implied_ids" eval="[(4,ref('base.group_user'))]"/>
+            <field name="category_id" ref="base.module_category_purchase_management"/>
+    </record>-->
+
+        <record id="group_purchase_DAF" model="res.groups">
+            <field name="name">Chief Financial Officer</field>
+            <field name="implied_ids" eval="[(4,ref('base.group_user'))]"/>
+            <field name="category_id" ref="base.module_category_purchase_management"/>
+    </record>
+
+     <record id="group_purchase_service_conformite2" model="res.groups">
+            <field name="name">Compliance Department</field>
+            <field name="implied_ids" eval="[(4,ref('base.group_user'))]"/>
+            <field name="category_id" ref="base.module_category_purchase_management"/>
+    </record>
+
+ <!--    <record id="group_purchase_direction_generale" model="res.groups">
+            <field name="name">Direction Générale</field>
+            <field name="implied_ids" eval="[(4,ref('base.group_user'))]"/>
+            <field name="category_id" ref="base.module_category_purchase_management"/>
+     </record>-->
+     <record id="group_purchase_service_comptable" model="res.groups">
+            <field name="name">Accounting Department</field>
+            <field name="implied_ids" eval="[(4,ref('base.group_user'))]"/>
+            <field name="category_id" ref="base.module_category_purchase_management"/>
+     </record>
+
+      <record id="group_purchase_chef_de_projet" model="res.groups">
+            <field name="name">Project Manager</field>
+            <field name="implied_ids" eval="[(4,ref('base.group_user'))]"/>
+            <field name="category_id" ref="base.module_category_purchase_management"/>
+     </record>
+
+     <record id="group_purchase_service_technique" model="res.groups">
+            <field name="name">Technical Department</field>
+            <field name="implied_ids" eval="[(4,ref('base.group_user'))]"/>
+            <field name="category_id" ref="base.module_category_purchase_management"/>
+     </record>
+    </data>
+</openerp>
